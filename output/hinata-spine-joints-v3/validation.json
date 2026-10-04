@@ -1,0 +1,111 @@
+{
+  "runtimeLoads": true,
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 3.200000047683716,
+      "highestMeshY": 1553.2706298828125,
+      "lowestMeshY": 13.999987602233887,
+      "maximumRootLift": 0,
+      "jointAngles": {
+        "forearm_L": {
+          "min": 20.948508510992994,
+          "max": 24.448508509652655,
+          "range": 3.4999999986596606
+        },
+        "forearm_R": {
+          "min": -28.300874697992963,
+          "max": -25.30087469914163,
+          "range": 2.999999998851333
+        },
+        "shin_L": {
+          "min": 42.19215410350003,
+          "max": 42.19215410350003,
+          "range": 0
+        },
+        "shin_R": {
+          "min": -27.27272711101302,
+          "max": -27.27272711101302,
+          "range": 0
+        }
+      }
+    },
+    {
+      "name": "hop",
+      "duration": 2.4000000953674316,
+      "highestMeshY": 1802.2449951171875,
+      "lowestMeshY": 13.999982833862305,
+      "maximumRootLift": 239.07819363150043,
+      "jointAngles": {
+        "forearm_L": {
+          "min": 20.948508510992994,
+          "max": 60.947599971368405,
+          "range": 39.99909146037541
+        },
+        "forearm_R": {
+          "min": -63.30001196795235,
+          "max": -25.30087469914163,
+          "range": 37.99913726881072
+        },
+        "shin_L": {
+          "min": 42.19215410350003,
+          "max": 81.99541825478778,
+          "range": 39.80326415128775
+        },
+        "shin_R": {
+          "min": -74.20715959787026,
+          "max": -27.27272711101302,
+          "range": 46.93443248685724
+        }
+      }
+    },
+    {
+      "name": "happy_bounce",
+      "duration": 2.4000000953674316,
+      "highestMeshY": 1820.7955322265625,
+      "lowestMeshY": 13.94688892364502,
+      "maximumRootLift": 279.06814237498884,
+      "jointAngles": {
+        "forearm_L": {
+          "min": 20.948508510992994,
+          "max": 62.93116278703743,
+          "range": 41.982654276044435
+        },
+        "forearm_R": {
+          "min": -65.18439645212143,
+          "max": -25.30087469914163,
+          "range": 39.8835217529798
+        },
+        "shin_L": {
+          "min": 42.19215410350003,
+          "max": 86.96911785430167,
+          "range": 44.77696375080164
+        },
+        "shin_R": {
+          "min": -78.94628195169354,
+          "max": -27.27272711101302,
+          "range": 51.67355484068052
+        }
+      }
+    }
+  ],
+  "registrationMaxError": 0.00048732910158832965,
+  "loopMaxError": 0.0000152587890625,
+  "finiteVertices": true,
+  "groundedAnkleError": 0.00028764352815854763,
+  "groundedFootAngleError": 0.0000061285644505915116,
+  "rigidBootLengthError": 0.0000773312253130598,
+  "controls": {
+    "playingAdvancesTime": true,
+    "pauseLabel": "播放动画",
+    "scrubWorks": true,
+    "enlargedViewWorks": true
+  },
+  "browserErrors": [],
+  "offlineFileOpen": true,
+  "previewFrames": 144,
+  "framesRenderedThisRun": 144,
+  "zoomPreviewFrames": 36,
+  "uncropped": true,
+  "articulated": true
+}

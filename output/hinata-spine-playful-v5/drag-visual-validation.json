@@ -1,0 +1,1299 @@
+{
+  "frames": 147,
+  "animations": [
+    "pickup",
+    "drag_hold",
+    "put_down"
+  ],
+  "largestDetachedPixels": 0,
+  "largestEnclosedHolePixels": 0,
+  "alphaThreshold": 128,
+  "holeAlphaThreshold": 24,
+  "minimumRecordedHolePixels": 4,
+  "comparisonWidth": 620,
+  "ballExcludedFromConnectivity": true,
+  "mechanismExcludedFromBodyConnectivity": true,
+  "cavities": [
+    {
+      "id": "head_juggle",
+      "t": 0,
+      "side": "L",
+      "alpha": 253
+    },
+    {
+      "id": "head_juggle",
+      "t": 0,
+      "side": "R",
+      "alpha": 253
+    },
+    {
+      "id": "head_juggle",
+      "t": 0.225,
+      "side": "L",
+      "alpha": 253
+    },
+    {
+      "id": "head_juggle",
+      "t": 0.225,
+      "side": "R",
+      "alpha": 253
+    },
+    {
+      "id": "head_juggle",
+      "t": 0.45,
+      "side": "L",
+      "alpha": 253
+    },
+    {
+      "id": "head_juggle",
+      "t": 0.45,
+      "side": "R",
+      "alpha": 253
+    },
+    {
+      "id": "head_juggle",
+      "t": 0.675,
+      "side": "L",
+      "alpha": 253
+    },
+    {
+      "id": "head_juggle",
+      "t": 0.675,
+      "side": "R",
+      "alpha": 253
+    },
+    {
+      "id": "head_juggle",
+      "t": 0.9,
+      "side": "L",
+      "alpha": 253
+    },
+    {
+      "id": "head_juggle",
+      "t": 0.9,
+      "side": "R",
+      "alpha": 253
+    },
+    {
+      "id": "proud_hops",
+      "t": 0.2,
+      "side": "L",
+      "alpha": 253
+    },
+    {
+      "id": "proud_hops",
+      "t": 0.2,
+      "side": "R",
+      "alpha": 253
+    },
+    {
+      "id": "proud_hops",
+      "t": 0.63,
+      "side": "L",
+      "alpha": 253
+    },
+    {
+      "id": "proud_hops",
+      "t": 0.63,
+      "side": "R",
+      "alpha": 253
+    },
+    {
+      "id": "proud_hops",
+      "t": 1.08,
+      "side": "L",
+      "alpha": 253
+    },
+    {
+      "id": "proud_hops",
+      "t": 1.08,
+      "side": "R",
+      "alpha": 253
+    }
+  ],
+  "controls": {
+    "expressionOverrides": true,
+    "pausePlay": true,
+    "slowMotion": true,
+    "scrub": true
+  },
+  "errors": [],
+  "stats": [
+    {
+      "id": "pickup",
+      "t": 0,
+      "focus": "full",
+      "main": 65601,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.03333333333333333,
+      "focus": "full",
+      "main": 65601,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.06666666666666667,
+      "focus": "full",
+      "main": 65601,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.1,
+      "focus": "full",
+      "main": 65601,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.13333333333333333,
+      "focus": "full",
+      "main": 65601,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.16666666666666666,
+      "focus": "full",
+      "main": 65601,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.2,
+      "focus": "full",
+      "main": 65601,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.23333333333333334,
+      "focus": "full",
+      "main": 65627,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.26666666666666666,
+      "focus": "full",
+      "main": 65694,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.3,
+      "focus": "full",
+      "main": 65806,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.3333333333333333,
+      "focus": "full",
+      "main": 65853,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0,
+      "focus": "full",
+      "main": 65803,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.03333333333333333,
+      "focus": "full",
+      "main": 65740,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.06666666666666667,
+      "focus": "full",
+      "main": 65667,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.1,
+      "focus": "full",
+      "main": 65611,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.13333333333333333,
+      "focus": "full",
+      "main": 65565,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.16666666666666666,
+      "focus": "full",
+      "main": 65500,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.2,
+      "focus": "full",
+      "main": 65416,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.23333333333333334,
+      "focus": "full",
+      "main": 65375,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.26666666666666666,
+      "focus": "full",
+      "main": 65338,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.3,
+      "focus": "full",
+      "main": 65327,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.3333333333333333,
+      "focus": "full",
+      "main": 65259,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.36666666666666664,
+      "focus": "full",
+      "main": 65253,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.4,
+      "focus": "full",
+      "main": 65229,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.43333333333333335,
+      "focus": "full",
+      "main": 65226,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.4666666666666667,
+      "focus": "full",
+      "main": 65186,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.5,
+      "focus": "full",
+      "main": 65182,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.5333333333333333,
+      "focus": "full",
+      "main": 65177,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.5666666666666667,
+      "focus": "full",
+      "main": 65174,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.6,
+      "focus": "full",
+      "main": 65191,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.6333333333333333,
+      "focus": "full",
+      "main": 65203,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.6666666666666666,
+      "focus": "full",
+      "main": 65223,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.7,
+      "focus": "full",
+      "main": 65264,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.7333333333333333,
+      "focus": "full",
+      "main": 65272,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.7666666666666667,
+      "focus": "full",
+      "main": 65343,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.8,
+      "focus": "full",
+      "main": 65381,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.8333333333333334,
+      "focus": "full",
+      "main": 65398,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.8666666666666667,
+      "focus": "full",
+      "main": 65457,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.9,
+      "focus": "full",
+      "main": 65529,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.9333333333333333,
+      "focus": "full",
+      "main": 65556,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.9666666666666667,
+      "focus": "full",
+      "main": 65635,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1,
+      "focus": "full",
+      "main": 65688,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.0333333333333334,
+      "focus": "full",
+      "main": 65753,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.0666666666666667,
+      "focus": "full",
+      "main": 65849,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.1,
+      "focus": "full",
+      "main": 65929,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.1333333333333333,
+      "focus": "full",
+      "main": 66027,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.1666666666666667,
+      "focus": "full",
+      "main": 66133,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.2,
+      "focus": "full",
+      "main": 66231,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.2333333333333334,
+      "focus": "full",
+      "main": 66317,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.2666666666666666,
+      "focus": "full",
+      "main": 66450,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.3,
+      "focus": "full",
+      "main": 66531,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.3333333333333333,
+      "focus": "full",
+      "main": 66637,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.3666666666666667,
+      "focus": "full",
+      "main": 66721,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.4,
+      "focus": "full",
+      "main": 66821,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.4333333333333333,
+      "focus": "full",
+      "main": 66913,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.4666666666666666,
+      "focus": "full",
+      "main": 66961,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.5,
+      "focus": "full",
+      "main": 67043,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.5333333333333334,
+      "focus": "full",
+      "main": 67106,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.5666666666666667,
+      "focus": "full",
+      "main": 67125,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.6,
+      "focus": "full",
+      "main": 67184,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.6333333333333333,
+      "focus": "full",
+      "main": 67212,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.6666666666666667,
+      "focus": "full",
+      "main": 67245,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.7,
+      "focus": "full",
+      "main": 67255,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.7333333333333334,
+      "focus": "full",
+      "main": 67269,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.7666666666666666,
+      "focus": "full",
+      "main": 67260,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.8,
+      "focus": "full",
+      "main": 67236,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.8333333333333333,
+      "focus": "full",
+      "main": 67212,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.8666666666666667,
+      "focus": "full",
+      "main": 67166,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.9,
+      "focus": "full",
+      "main": 67110,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.9333333333333333,
+      "focus": "full",
+      "main": 67077,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.9666666666666666,
+      "focus": "full",
+      "main": 66995,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2,
+      "focus": "full",
+      "main": 66933,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.033333333333333,
+      "focus": "full",
+      "main": 66847,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.066666666666667,
+      "focus": "full",
+      "main": 66769,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.1,
+      "focus": "full",
+      "main": 66671,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.1333333333333333,
+      "focus": "full",
+      "main": 66580,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.1666666666666665,
+      "focus": "full",
+      "main": 66494,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.2,
+      "focus": "full",
+      "main": 66383,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.2333333333333334,
+      "focus": "full",
+      "main": 66282,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.2666666666666666,
+      "focus": "full",
+      "main": 66183,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.3,
+      "focus": "full",
+      "main": 66066,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.3333333333333335,
+      "focus": "full",
+      "main": 65977,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.3666666666666667,
+      "focus": "full",
+      "main": 65858,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0,
+      "focus": "full",
+      "main": 65855,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.03333333333333333,
+      "focus": "full",
+      "main": 65856,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.06666666666666667,
+      "focus": "full",
+      "main": 65814,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.1,
+      "focus": "full",
+      "main": 65772,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.13333333333333333,
+      "focus": "full",
+      "main": 65706,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.16666666666666666,
+      "focus": "full",
+      "main": 65653,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.2,
+      "focus": "full",
+      "main": 65635,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.23333333333333334,
+      "focus": "full",
+      "main": 65603,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.26666666666666666,
+      "focus": "full",
+      "main": 65544,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.3,
+      "focus": "full",
+      "main": 65403,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.3333333333333333,
+      "focus": "full",
+      "main": 65339,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.36666666666666664,
+      "focus": "full",
+      "main": 65362,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.4,
+      "focus": "full",
+      "main": 65441,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.43333333333333335,
+      "focus": "full",
+      "main": 65522,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.4666666666666667,
+      "focus": "full",
+      "main": 65588,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0,
+      "focus": "face",
+      "main": 187276,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.06666666666666667,
+      "focus": "face",
+      "main": 187276,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.13333333333333333,
+      "focus": "face",
+      "main": 187276,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.2,
+      "focus": "face",
+      "main": 187276,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "pickup",
+      "t": 0.26666666666666666,
+      "focus": "face",
+      "main": 187355,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0,
+      "focus": "face",
+      "main": 187506,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.06666666666666667,
+      "focus": "face",
+      "main": 187447,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.13333333333333333,
+      "focus": "face",
+      "main": 187355,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.2,
+      "focus": "face",
+      "main": 187278,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.26666666666666666,
+      "focus": "face",
+      "main": 187229,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.3333333333333333,
+      "focus": "face",
+      "main": 187211,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.4,
+      "focus": "face",
+      "main": 187182,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.4666666666666667,
+      "focus": "face",
+      "main": 187157,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.5333333333333333,
+      "focus": "face",
+      "main": 187195,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.6,
+      "focus": "face",
+      "main": 187194,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.6666666666666666,
+      "focus": "face",
+      "main": 187248,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.7333333333333333,
+      "focus": "face",
+      "main": 187282,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.8,
+      "focus": "face",
+      "main": 187333,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.8666666666666667,
+      "focus": "face",
+      "main": 187419,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 0.9333333333333333,
+      "focus": "face",
+      "main": 187493,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1,
+      "focus": "face",
+      "main": 187589,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.0666666666666667,
+      "focus": "face",
+      "main": 187688,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.1333333333333333,
+      "focus": "face",
+      "main": 187763,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.2,
+      "focus": "face",
+      "main": 187898,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.2666666666666666,
+      "focus": "face",
+      "main": 187956,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.3333333333333333,
+      "focus": "face",
+      "main": 188068,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.4,
+      "focus": "face",
+      "main": 188141,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.4666666666666666,
+      "focus": "face",
+      "main": 188203,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.5333333333333334,
+      "focus": "face",
+      "main": 188256,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.6,
+      "focus": "face",
+      "main": 188289,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.6666666666666667,
+      "focus": "face",
+      "main": 188305,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.7333333333333334,
+      "focus": "face",
+      "main": 188323,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.8,
+      "focus": "face",
+      "main": 188271,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.8666666666666667,
+      "focus": "face",
+      "main": 188243,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 1.9333333333333333,
+      "focus": "face",
+      "main": 188175,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2,
+      "focus": "face",
+      "main": 188107,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.066666666666667,
+      "focus": "face",
+      "main": 188031,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.1333333333333333,
+      "focus": "face",
+      "main": 187930,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.2,
+      "focus": "face",
+      "main": 187825,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.2666666666666666,
+      "focus": "face",
+      "main": 187722,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "drag_hold",
+      "t": 2.3333333333333335,
+      "focus": "face",
+      "main": 187644,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0,
+      "focus": "face",
+      "main": 187561,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.06666666666666667,
+      "focus": "face",
+      "main": 187543,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.13333333333333333,
+      "focus": "face",
+      "main": 187361,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.2,
+      "focus": "face",
+      "main": 187305,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.26666666666666666,
+      "focus": "face",
+      "main": 187276,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.3333333333333333,
+      "focus": "face",
+      "main": 187276,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.4,
+      "focus": "face",
+      "main": 187276,
+      "detached": 0,
+      "holes": []
+    },
+    {
+      "id": "put_down",
+      "t": 0.4666666666666667,
+      "focus": "face",
+      "main": 187276,
+      "detached": 0,
+      "holes": []
+    }
+  ]
+}

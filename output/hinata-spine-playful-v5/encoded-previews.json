@@ -1,0 +1,86 @@
+[
+  {
+    "id": "head_juggle",
+    "sourceFrames": 54,
+    "durationMs": 3600,
+    "gif": "head_juggle.gif",
+    "webp": "head_juggle.webp"
+  },
+  {
+    "id": "sway",
+    "sourceFrames": 48,
+    "durationMs": 3200,
+    "gif": "sway.gif",
+    "webp": "sway.webp"
+  },
+  {
+    "id": "proud_hops",
+    "sourceFrames": 36,
+    "durationMs": 2400,
+    "gif": "proud_hops.gif",
+    "webp": "proud_hops.webp"
+  },
+  {
+    "id": "stunned",
+    "sourceFrames": 42,
+    "durationMs": 2800,
+    "gif": "stunned.gif",
+    "webp": "stunned.webp"
+  },
+  {
+    "id": "shocked",
+    "sourceFrames": 42,
+    "durationMs": 2800,
+    "gif": "shocked.gif",
+    "webp": "shocked.webp"
+  },
+  {
+    "id": "grin",
+    "sourceFrames": 48,
+    "durationMs": 3200,
+    "gif": "grin.gif",
+    "webp": "grin.webp"
+  },
+  {
+    "id": "determined",
+    "sourceFrames": 48,
+    "durationMs": 3200,
+    "gif": "determined.gif",
+    "webp": "determined.webp"
+  },
+  {
+    "id": "idle",
+    "sourceFrames": 48,
+    "durationMs": 3200,
+    "gif": "idle.gif",
+    "webp": "idle.webp"
+  },
+  {
+    "id": "hop",
+    "sourceFrames": 36,
+    "durationMs": 2400,
+    "gif": "hop.gif",
+    "webp": "hop.webp"
+  },
+  {
+    "id": "happy_bounce",
+    "sourceFrames": 36,
+    "durationMs": 2400,
+    "gif": "happy_bounce.gif",
+    "webp": "happy_bounce.webp"
+  },
+  {
+    "id": "head-hop",
+    "sourceFrames": 36,
+    "durationMs": 2400,
+    "gif": "head-hop.gif",
+    "webp": "head-hop.webp"
+  },
+  {
+    "id": "hem-hop",
+    "sourceFrames": 36,
+    "durationMs": 2400,
+    "gif": "hem-hop.gif",
+    "webp": "hem-hop.webp"
+  }
+]

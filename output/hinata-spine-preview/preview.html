@@ -1,0 +1,52 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>日向翔阳 · 雨衣 Spine 动画预览</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f6f2e9;color:#37302b;font-family:"Microsoft YaHei",sans-serif}main{max-width:1190px;margin:32px auto;padding:0 24px}header{display:flex;justify-content:space-between;align-items:center;gap:16px}h1{font-size:28px;margin:8px 0 12px}p{line-height:1.8;margin:0;color:#746b60}.eyebrow{font-size:12px;letter-spacing:2px;color:#b27836}.badge{border:1px solid #e5d6bd;background:#fffaf0;border-radius:20px;padding:9px 14px;font-size:12px;white-space:nowrap}.toolbar{display:flex;gap:12px;align-items:center;margin:24px 0 18px;flex-wrap:wrap}button,select{border:1px solid #dfd6c7;border-radius:10px;padding:10px 16px;background:#fffefb;color:#493c30;font:inherit;cursor:pointer}button.primary{background:#e99832;border-color:#e99832;color:white}label{font-size:13px;color:#776b5d}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fffdf8;border:1px solid #e8dfd1;border-radius:18px;overflow:hidden}.stage{position:relative;height:510px;background:radial-gradient(ellipse at 50% 46%,#fffaf0,#f2ebdc)}canvas{display:block;width:100%;height:100%;position:relative;z-index:1}.shadow{position:absolute;width:44%;height:12px;bottom:26px;left:28%;background:#a99a7d27;border-radius:50%;filter:blur(3px)}.card-body{padding:18px 20px 20px}h2{font-size:19px;margin:0 0 7px}.card-body p{font-size:13px;min-height:47px}.time{font-size:11px;letter-spacing:1px;color:#a69580;float:right}.slider{width:100%;accent-color:#df943a;margin-top:13px}.status{font-size:12px;color:#a18b6c;margin-top:8px}footer{padding:20px 0 12px;font-size:12px;color:#8a7e70;line-height:1.9}footer a{color:#a86a26}.error{color:#ba452c;background:#ffe9df;padding:16px;border-radius:12px}@media(max-width:800px){.grid{grid-template-columns:1fr}.stage{height:520px}header{align-items:flex-start}.badge{display:none}main{max-width:520px}}
+</style></head><body><main>
+<header><div><div class="eyebrow">HINATA · RAINCOAT</div><h1>雨衣小太阳，动起来了</h1><p>待机的轻呼吸、蓄力的小蹦跳，还有开心时的连续跳跃。</p></div><span class="badge">Spine 4.2 官方运行时</span></header>
+<div class="toolbar"><button id="play" class="primary">暂停动画</button><button id="reset">从头播放</button><button id="setup">看原始姿势</button><label>速度 <select id="speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option></select></label><label><input type="checkbox" id="bones"> 显示骨骼</label></div>
+<div id="error"></div><div class="grid" id="grid"></div>
+<footer>使用已拆好的 47 张原图层，未重画形象。当前保持原姿势做网格变形，未补全遮挡区域；眨眼、转身和大幅挥手尚未制作。<br>
+<a href="hinata-raincoat.json" download>Spine JSON</a> · <a href="hinata-raincoat.atlas" download>纹理图集</a> · <a href="README.txt">导入说明</a></footer>
+</main><script src="runtime/spine-webgl.js"></script><script src="preview-data.js"></script><script>
+const DATA=window.PET_DATA,players=[];let playing=true,speed=1,showBones=false,setup=false,lastTime=performance.now();
+const grid=document.querySelector('#grid');
+function makeCard(def){const card=document.createElement('section');card.className='card';card.innerHTML=`<div class="stage"><div class="shadow"></div><canvas id="canvas-${def.id}"></canvas></div><div class="card-body"><span class="time">${def.duration.toFixed(1)} s / LOOP</span><h2>${def.label}</h2><p>${def.description}</p><input class="slider" aria-label="${def.label}时间" type="range" min="0" max="${def.duration}" step="0.001" value="0"><div class="status">载入原图层…</div></div>`;grid.append(card);return card;}
+function loadImage(src){return new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>resolve(img);img.onerror=reject;img.src=src;});}
+function evaluate(p,t,rest=false){p.skeleton.setToSetupPose();if(!rest)p.animation.apply(p.skeleton,-1,t,false,[],1,spine.MixBlend.replace,spine.MixDirection.mixIn);p.skeleton.updateWorldTransform(spine.Physics.none);}
+function render(p,t,rest=false){evaluate(p,t,rest);const r=p.renderer,gl=r.context.gl;
+  const rect=p.canvas.getBoundingClientRect(),dpr=window.devicePixelRatio||1;p.canvas.width=Math.round(rect.width*dpr);p.canvas.height=Math.round(rect.height*dpr);
+  gl.viewport(0,0,p.canvas.width,p.canvas.height);r.camera.viewportHeight=2150;r.camera.viewportWidth=2150*rect.width/rect.height;r.camera.position.set(0,975,0);r.camera.update();
+  gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT);r.begin();r.drawSkeleton(p.skeleton,false);if(showBones)r.drawSkeletonDebug(p.skeleton);r.end();gl.finish();
+  p.slider.value=Math.min(t,p.def.duration);p.status.textContent=rest?'原始姿势':`${t.toFixed(2)} s / ${p.def.duration.toFixed(1)} s`;
+}
+async function init(){
+  const images=Object.fromEntries(await Promise.all(Object.entries(DATA.textures).map(async([name,src])=>[name,await loadImage(src)])));
+  for(const def of DATA.animations){
+    const card=makeCard(def),canvas=card.querySelector('canvas'),gl=canvas.getContext('webgl',{alpha:true,premultipliedAlpha:true,preserveDrawingBuffer:true,antialias:false});if(!gl)throw Error('当前浏览器未启用 WebGL。请使用 Chrome 或 Edge 打开。');
+    const renderer=new spine.SceneRenderer(canvas,gl,false);spine.GLTexture.DISABLE_UNPACK_PREMULTIPLIED_ALPHA_WEBGL=true;
+    const atlas=new spine.TextureAtlas(DATA.atlas);for(const page of atlas.pages)page.setTexture(new spine.GLTexture(gl,images[page.name],false));
+    const loader=new spine.SkeletonJson(new spine.AtlasAttachmentLoader(atlas)),skeletonData=loader.readSkeletonData(DATA.skeleton),skeleton=new spine.Skeleton(skeletonData),animation=skeletonData.findAnimation(def.id);
+    const p={def,canvas,renderer,atlas,skeleton,skeletonData,animation,slider:card.querySelector('.slider'),status:card.querySelector('.status'),t:0};players.push(p);
+    p.slider.addEventListener('input',()=>{playing=false;setup=false;updateButtons();p.t=Number(p.slider.value);render(p,p.t);});render(p,0);
+  }
+  window.petPreview={ready:true,players,pause:()=>{playing=false;updateButtons();},renderAt:(id,t,rest=false)=>{playing=false;setup=false;const p=players.find(q=>q.def.id===id);p.t=t;render(p,t,rest);return snapshot(p);},
+    sample:(id,t,rest=false)=>{const p=players.find(q=>q.def.id===id);evaluate(p,t,rest);return snapshot(p);},renderAll:(t)=>{playing=false;setup=false;for(const p of players){p.t=t;render(p,t);}},
+    setDebug:value=>{showBones=value;for(const p of players)render(p,p.t,setup);}};
+  requestAnimationFrame(tick);
+}
+function snapshot(p){let minX=Infinity,minY=Infinity,maxX=-Infinity,maxY=-Infinity;const vertices=[];
+  for(const slot of p.skeleton.slots){const a=slot.getAttachment();if(!(a instanceof spine.MeshAttachment))continue;const v=new Float32Array(a.worldVerticesLength);a.computeWorldVertices(slot,0,v.length,v,0,2);vertices.push(Array.from(v));for(let i=0;i<v.length;i+=2){minX=Math.min(minX,v[i]);maxX=Math.max(maxX,v[i]);minY=Math.min(minY,v[i+1]);maxY=Math.max(maxY,v[i+1]);}}
+  return {vertices,bounds:{minX,minY,maxX,maxY},bones:p.skeleton.bones.map(b=>({name:b.data.name,x:b.x,y:b.y,r:b.rotation,sx:b.scaleX,sy:b.scaleY}))};
+}
+function tick(now){const dt=Math.min((now-lastTime)/1000,.05);lastTime=now;if(playing){for(const p of players){p.t=(p.t+dt*speed)%p.def.duration;render(p,p.t);}}requestAnimationFrame(tick);}
+function updateButtons(){document.querySelector('#play').textContent=playing?'暂停动画':'播放动画';}
+document.querySelector('#play').onclick=()=>{playing=!playing;setup=false;lastTime=performance.now();updateButtons();};
+document.querySelector('#reset').onclick=()=>{setup=false;for(const p of players){p.t=0;render(p,0);}playing=true;lastTime=performance.now();updateButtons();};
+document.querySelector('#setup').onclick=()=>{playing=false;setup=true;updateButtons();for(const p of players)render(p,0,true);};
+document.querySelector('#speed').onchange=e=>speed=Number(e.target.value);
+document.querySelector('#bones').onchange=e=>{showBones=e.target.checked;for(const p of players)render(p,p.t,setup);};
+window.addEventListener('resize',()=>{for(const p of players)render(p,p.t,setup);});
+init().catch(e=>{document.querySelector('#error').className='error';document.querySelector('#error').textContent=e.message;console.error(e);});
+</script></body></html>
+
+

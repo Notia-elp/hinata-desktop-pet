@@ -1,0 +1,141 @@
+{
+  "sampleRate": 120,
+  "paintedLeftTriangles": 137,
+  "paintedFringeTriangles": 184,
+  "results": [
+    {
+      "id": "idle",
+      "mode": "current",
+      "minimumAreaRatio": 0.9999942782002713,
+      "maximumAreaRatio": 1.025160704897846,
+      "foldedTriangles": 0,
+      "worstTime": 0.008333333333333333,
+      "fringeMinimumAreaRatio": 0.9725840479756395,
+      "fringeMaximumAreaRatio": 1.0532226536241878,
+      "fringeFoldedTriangles": 0
+    },
+    {
+      "id": "idle",
+      "mode": "baseline",
+      "minimumAreaRatio": 0.9298062259460695,
+      "maximumAreaRatio": 1.0897512930807554,
+      "foldedTriangles": 0,
+      "worstTime": 1.0666666666666653
+    },
+    {
+      "id": "hop",
+      "mode": "current",
+      "minimumAreaRatio": 0.999683183844253,
+      "maximumAreaRatio": 1.0003794587747608,
+      "foldedTriangles": 0,
+      "worstTime": 1.2916666666666645,
+      "fringeMinimumAreaRatio": 0.8778544402254435,
+      "fringeMaximumAreaRatio": 1.1491851958368595,
+      "fringeFoldedTriangles": 0
+    },
+    {
+      "id": "hop",
+      "mode": "baseline",
+      "minimumAreaRatio": 0.351132525363937,
+      "maximumAreaRatio": 1.671763498801738,
+      "foldedTriangles": 0,
+      "worstTime": 0.5666666666666671
+    },
+    {
+      "id": "happy_bounce",
+      "mode": "current",
+      "minimumAreaRatio": 0.9996844700945076,
+      "maximumAreaRatio": 1.0003827178863705,
+      "foldedTriangles": 0,
+      "worstTime": 2.0249999999999955,
+      "fringeMinimumAreaRatio": 0.8779568868663369,
+      "fringeMaximumAreaRatio": 1.149221071197341,
+      "fringeFoldedTriangles": 0
+    },
+    {
+      "id": "happy_bounce",
+      "mode": "baseline",
+      "minimumAreaRatio": 0.29405916826928863,
+      "maximumAreaRatio": 1.6371609644653897,
+      "foldedTriangles": 0,
+      "worstTime": 1.3166666666666644
+    },
+    {
+      "id": "head_juggle",
+      "mode": "current",
+      "minimumAreaRatio": 0.9998039406685469,
+      "maximumAreaRatio": 1.00019870242492,
+      "foldedTriangles": 0,
+      "worstTime": 1.1249999999999984,
+      "fringeMinimumAreaRatio": 0.9249688545888703,
+      "fringeMaximumAreaRatio": 1.0770179315554236,
+      "fringeFoldedTriangles": 0
+    },
+    {
+      "id": "sway",
+      "mode": "current",
+      "minimumAreaRatio": 0.9998478247499507,
+      "maximumAreaRatio": 1.0001538620821924,
+      "foldedTriangles": 0,
+      "worstTime": 2.3583333333333276,
+      "fringeMinimumAreaRatio": 0.9418474219597152,
+      "fringeMaximumAreaRatio": 1.059336591201524,
+      "fringeFoldedTriangles": 0
+    },
+    {
+      "id": "proud_hops",
+      "mode": "current",
+      "minimumAreaRatio": 0.999806262756465,
+      "maximumAreaRatio": 1.0002304829928714,
+      "foldedTriangles": 0,
+      "worstTime": 2.0499999999999954,
+      "fringeMinimumAreaRatio": 0.9258758622195778,
+      "fringeMaximumAreaRatio": 1.088945927088692,
+      "fringeFoldedTriangles": 0
+    },
+    {
+      "id": "stunned",
+      "mode": "current",
+      "minimumAreaRatio": 0.9998476220967455,
+      "maximumAreaRatio": 1.0001550001616124,
+      "foldedTriangles": 0,
+      "worstTime": 2.1416666666666617,
+      "fringeMinimumAreaRatio": 0.9418470856811231,
+      "fringeMaximumAreaRatio": 1.0593384160084598,
+      "fringeFoldedTriangles": 0
+    },
+    {
+      "id": "shocked",
+      "mode": "current",
+      "minimumAreaRatio": 0.9998465334388634,
+      "maximumAreaRatio": 1.0001534060704418,
+      "foldedTriangles": 0,
+      "worstTime": 2.0833333333333286,
+      "fringeMinimumAreaRatio": 0.9418444088013429,
+      "fringeMaximumAreaRatio": 1.0593437998161082,
+      "fringeFoldedTriangles": 0
+    },
+    {
+      "id": "grin",
+      "mode": "current",
+      "minimumAreaRatio": 0.9998472680454142,
+      "maximumAreaRatio": 1.0001524679990124,
+      "foldedTriangles": 0,
+      "worstTime": 2.3499999999999943,
+      "fringeMinimumAreaRatio": 0.9418456108639172,
+      "fringeMaximumAreaRatio": 1.0593357572700672,
+      "fringeFoldedTriangles": 0
+    },
+    {
+      "id": "determined",
+      "mode": "current",
+      "minimumAreaRatio": 0.9998472680454142,
+      "maximumAreaRatio": 1.0001524679990124,
+      "foldedTriangles": 0,
+      "worstTime": 2.3499999999999943,
+      "fringeMinimumAreaRatio": 0.9418456108639172,
+      "fringeMaximumAreaRatio": 1.0593357572700672,
+      "fringeFoldedTriangles": 0
+    }
+  ]
+}

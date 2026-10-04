@@ -1,0 +1,26 @@
+[
+  {
+    "id": "drag-pickup",
+    "frames": 11,
+    "durationMs": 360,
+    "loop": false
+  },
+  {
+    "id": "drag-drag_hold",
+    "frames": 72,
+    "durationMs": 2400,
+    "loop": true
+  },
+  {
+    "id": "drag-put_down",
+    "frames": 15,
+    "durationMs": 500,
+    "loop": false
+  },
+  {
+    "id": "drag-demo",
+    "frames": 72,
+    "durationMs": 3600,
+    "loop": true
+  }
+]

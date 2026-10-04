@@ -1,0 +1,155 @@
+[
+  {
+    "id": "coat_occlusion_underlay",
+    "label": "手臂后方雨衣补绘",
+    "x": 260,
+    "y": 680,
+    "width": 650,
+    "height": 510,
+    "visible": true
+  },
+  {
+    "id": "leg_L",
+    "label": "左腿可见部分",
+    "group": "四肢",
+    "x": 381,
+    "y": 1138,
+    "width": 145,
+    "height": 154,
+    "visible": true,
+    "file": "layers/leg_L.png",
+    "origin": "approved-source-pixels",
+    "pixelCount": 12986
+  },
+  {
+    "id": "leg_R",
+    "label": "右腿可见部分",
+    "group": "四肢",
+    "x": 634,
+    "y": 1161,
+    "width": 156,
+    "height": 147,
+    "visible": true,
+    "file": "layers/leg_R.png",
+    "origin": "approved-source-pixels",
+    "pixelCount": 12353
+  },
+  {
+    "id": "boot_L",
+    "label": "左雨靴",
+    "group": "四肢",
+    "x": 254,
+    "y": 1217,
+    "width": 270,
+    "height": 284,
+    "visible": true,
+    "file": "layers/boot_L.png",
+    "origin": "approved-source-pixels",
+    "pixelCount": 36894
+  },
+  {
+    "id": "boot_R",
+    "label": "右雨靴",
+    "group": "四肢",
+    "x": 648,
+    "y": 1217,
+    "width": 194,
+    "height": 305,
+    "visible": true,
+    "file": "layers/boot_R.png",
+    "origin": "approved-source-pixels",
+    "pixelCount": 34768
+  },
+  {
+    "id": "shorts",
+    "x": 388,
+    "y": 1067,
+    "width": 383,
+    "height": 169,
+    "visible": true,
+    "originalParts": [
+      "shorts_L",
+      "shorts_R"
+    ]
+  },
+  {
+    "id": "coat_surface",
+    "x": 264,
+    "y": 554,
+    "width": 619,
+    "height": 678,
+    "visible": true,
+    "originalParts": [
+      "neck",
+      "coat_torso",
+      "hood_back",
+      "collar_L",
+      "collar_R",
+      "hem_back",
+      "button_01",
+      "button_02",
+      "button_03",
+      "button_04",
+      "crow"
+    ]
+  },
+  {
+    "id": "head_surface",
+    "x": 109,
+    "y": 4,
+    "width": 771,
+    "height": 690,
+    "visible": true,
+    "originalParts": [
+      "hair_back",
+      "hair_front_center",
+      "hair_front_L",
+      "hair_front_R",
+      "hair_crown",
+      "face",
+      "ear_L",
+      "ear_R",
+      "eye_white_L",
+      "eye_white_R",
+      "iris_L",
+      "iris_R",
+      "upper_lid_L",
+      "upper_lid_R",
+      "lower_lid_L",
+      "lower_lid_R",
+      "brow_L",
+      "brow_R",
+      "blush_L",
+      "blush_R",
+      "nose",
+      "mouth_inside",
+      "mouth_teeth",
+      "mouth_tongue",
+      "mouth_line"
+    ]
+  },
+  {
+    "id": "arm_L",
+    "x": 299,
+    "y": 704,
+    "width": 206,
+    "height": 363,
+    "visible": true,
+    "originalParts": [
+      "sleeve_L",
+      "hand_L"
+    ]
+  },
+  {
+    "id": "arm_R",
+    "x": 653,
+    "y": 687,
+    "width": 210,
+    "height": 444,
+    "visible": true,
+    "originalParts": [
+      "sleeve_R",
+      "hand_R"
+    ]
+  }
+]

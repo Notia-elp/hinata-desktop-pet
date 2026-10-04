@@ -1,0 +1,300 @@
+{
+  "source": "../hinata-live2d-v2",
+  "layerCount": 10,
+  "boneCount": 22,
+  "pageCount": 1,
+  "originalLayerFilesUnchanged": true,
+  "samplingSupport": {
+    "pixels": 4,
+    "source": "Neighboring approved-image pixels of the same rig attachment family only; no new drawing.",
+    "copiedSeamPixels": 112366
+  },
+  "boundaryRepair": {
+    "reassignedContourPixels": 5523,
+    "sourceRGBAUnchanged": true,
+    "removedFromRuntime": "597 isolated low-alpha edge particles, kept in original-layers/."
+  },
+  "sourceImageSHA256": "356450ea34b96bc6db673b1aa36bce403e2e065b0efe4597e749a1f0e2d5ae4a",
+  "runtime": "Official @esotericsoftware/spine-webgl 4.2 branch",
+  "runtimeSHA256": "98e11bb97abf3dd8df842b6409978d0cfdc6d4ab6d7095ba90ca7810bcf0ebec",
+  "occlusionUnderlay": {
+    "source": "coat-occlusion-generated.png",
+    "usedPixels": 211389,
+    "scope": "Coat-only crop at 260,680,650,510, under original pixels. Original head untouched; no generated thigh caps used."
+  },
+  "rig": "Arm sleeves and hands consolidated into continuous shared weighted meshes. Skin-only thigh/shin chains with dual-quaternion volume corrective baked to standard Spine mesh deform keys. Full boots rigidly bound to a single foot bone, independently counter-rotated. Leg IK baked to FK; planted cuff targets on ground.",
+  "archiveLayers": 47,
+  "runtimeSurfaces": [
+    {
+      "id": "coat_occlusion_underlay",
+      "originalParts": [
+        "coat_occlusion_underlay"
+      ]
+    },
+    {
+      "id": "leg_L",
+      "originalParts": [
+        "leg_L"
+      ]
+    },
+    {
+      "id": "leg_R",
+      "originalParts": [
+        "leg_R"
+      ]
+    },
+    {
+      "id": "boot_L",
+      "originalParts": [
+        "boot_L"
+      ]
+    },
+    {
+      "id": "boot_R",
+      "originalParts": [
+        "boot_R"
+      ]
+    },
+    {
+      "id": "shorts",
+      "originalParts": [
+        "shorts_L",
+        "shorts_R"
+      ]
+    },
+    {
+      "id": "coat_surface",
+      "originalParts": [
+        "neck",
+        "coat_torso",
+        "hood_back",
+        "collar_L",
+        "collar_R",
+        "hem_back",
+        "button_01",
+        "button_02",
+        "button_03",
+        "button_04",
+        "crow"
+      ]
+    },
+    {
+      "id": "head_surface",
+      "originalParts": [
+        "hair_back",
+        "hair_front_center",
+        "hair_front_L",
+        "hair_front_R",
+        "hair_crown",
+        "face",
+        "ear_L",
+        "ear_R",
+        "eye_white_L",
+        "eye_white_R",
+        "iris_L",
+        "iris_R",
+        "upper_lid_L",
+        "upper_lid_R",
+        "lower_lid_L",
+        "lower_lid_R",
+        "brow_L",
+        "brow_R",
+        "blush_L",
+        "blush_R",
+        "nose",
+        "mouth_inside",
+        "mouth_teeth",
+        "mouth_tongue",
+        "mouth_line"
+      ]
+    },
+    {
+      "id": "arm_L",
+      "originalParts": [
+        "sleeve_L",
+        "hand_L"
+      ]
+    },
+    {
+      "id": "arm_R",
+      "originalParts": [
+        "sleeve_R",
+        "hand_R"
+      ]
+    }
+  ],
+  "chains": {
+    "arm_L": {
+      "A": [
+        453,
+        760
+      ],
+      "B": [
+        380,
+        920
+      ],
+      "C": [
+        375,
+        1000
+      ],
+      "a": {
+        "x": -59,
+        "y": 776
+      },
+      "b": {
+        "x": -132,
+        "y": 616
+      },
+      "c": {
+        "x": -137,
+        "y": 536
+      },
+      "theta1": -114.52484288599035,
+      "theta2": -93.57633437499736,
+      "len1": 175.86642658563346,
+      "len2": 80.15609770940699,
+      "sign": 1,
+      "names": [
+        "upper_arm_L",
+        "forearm_L",
+        "hand_L"
+      ],
+      "helper": "elbow_L"
+    },
+    "arm_R": {
+      "A": [
+        727,
+        735
+      ],
+      "B": [
+        780,
+        945
+      ],
+      "C": [
+        755,
+        1072
+      ],
+      "a": {
+        "x": 215,
+        "y": 801
+      },
+      "b": {
+        "x": 268,
+        "y": 591
+      },
+      "c": {
+        "x": 243,
+        "y": 464
+      },
+      "theta1": -75.8354347320401,
+      "theta2": -101.13630943118173,
+      "len1": 216.58485634965336,
+      "len2": 129.43724348115578,
+      "sign": -1,
+      "names": [
+        "upper_arm_R",
+        "forearm_R",
+        "hand_R"
+      ],
+      "helper": "elbow_R"
+    },
+    "leg_L": {
+      "A": [
+        470,
+        1157
+      ],
+      "B": [
+        429,
+        1210
+      ],
+      "C": [
+        434,
+        1274
+      ],
+      "a": {
+        "x": -42,
+        "y": 379
+      },
+      "b": {
+        "x": -83,
+        "y": 326
+      },
+      "c": {
+        "x": -78,
+        "y": 262
+      },
+      "theta1": -127.72499504211075,
+      "theta2": -85.53284093861072,
+      "len1": 67.00746227100382,
+      "len2": 64.19501538281614,
+      "sign": 1,
+      "names": [
+        "thigh_L",
+        "shin_L",
+        "foot_L"
+      ],
+      "helper": "knee_L"
+    },
+    "leg_R": {
+      "A": [
+        681,
+        1187
+      ],
+      "B": [
+        723,
+        1237
+      ],
+      "C": [
+        735,
+        1290
+      ],
+      "a": {
+        "x": 169,
+        "y": 349
+      },
+      "b": {
+        "x": 211,
+        "y": 299
+      },
+      "c": {
+        "x": 223,
+        "y": 246
+      },
+      "theta1": -49.9697407281103,
+      "theta2": -77.24246783912332,
+      "len1": 65.29931086925804,
+      "len2": 54.3415126767741,
+      "sign": -1,
+      "names": [
+        "thigh_R",
+        "shin_R",
+        "foot_R"
+      ],
+      "helper": "knee_R"
+    }
+  },
+  "limitations": [
+    "雨衣遮挡区域已局部补绘；未制作转身或眨眼。",
+    "未在 Spine 编辑器中执行导入；本包是 JSON/atlas/PNG，不含原生 .spine 文件。"
+  ],
+  "animations": [
+    {
+      "id": "idle",
+      "label": "待机呼吸",
+      "duration": 3.2,
+      "description": "轻轻呼吸，肘部轻弯，手腕和发梢微动。"
+    },
+    {
+      "id": "hop",
+      "label": "屈膝蹦跳",
+      "duration": 2.4,
+      "description": "屈膝蓄力 → 摆臂起跳 → 收腿 → 脚底着地缓冲。"
+    },
+    {
+      "id": "happy_bounce",
+      "label": "开心连跳",
+      "duration": 2.4,
+      "description": "连续小跳，手肘弯曲摆动，膝部收起后缓冲落地。"
+    }
+  ]
+}

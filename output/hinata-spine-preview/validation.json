@@ -1,0 +1,38 @@
+{
+  "runtimeLoads": true,
+  "animations": [
+    {
+      "name": "idle",
+      "duration": 3.200000047683716,
+      "highestMeshY": 1560.2841796875,
+      "lowestMeshY": 13.999999046325684,
+      "maximumRootLift": 0
+    },
+    {
+      "name": "hop",
+      "duration": 2.4000000953674316,
+      "highestMeshY": 1795.3851318359375,
+      "lowestMeshY": 12.429200172424316,
+      "maximumRootLift": 249.7580301730165
+    },
+    {
+      "name": "happy_bounce",
+      "duration": 2.4000000953674316,
+      "highestMeshY": 1948.1014404296875,
+      "lowestMeshY": 12.768952369689941,
+      "maximumRootLift": 339.76455482643956
+    }
+  ],
+  "registrationMaxError": 0.0007390000000668806,
+  "loopMaxError": 0.000030517578125,
+  "finiteVertices": true,
+  "controls": {
+    "playingAdvancesTime": true,
+    "pauseLabel": "播放动画",
+    "scrubWorks": true
+  },
+  "browserErrors": [],
+  "offlineFileOpen": true,
+  "previewFrames": 144,
+  "uncropped": true
+}

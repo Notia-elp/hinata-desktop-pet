@@ -1,0 +1,251 @@
+hinata-atlas-1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pma: false
+coat_torso
+  bounds: 3,3,619,538
+  offsets: 0,0,619,538
+  rotate: false
+  index: -1
+coat_occlusion_underlay
+  bounds: 628,3,650,510
+  offsets: 0,0,650,510
+  rotate: false
+  index: -1
+hair_back
+  bounds: 1284,3,732,507
+  offsets: 0,0,732,507
+  rotate: false
+  index: -1
+hood_back
+  bounds: 3,547,534,451
+  offsets: 0,0,534,451
+  rotate: false
+  index: -1
+sleeve_R
+  bounds: 543,547,210,433
+  offsets: 0,0,210,433
+  rotate: false
+  index: -1
+face
+  bounds: 759,547,505,396
+  offsets: 0,0,505,396
+  rotate: false
+  index: -1
+hair_front_L
+  bounds: 1270,547,247,340
+  offsets: 0,0,247,340
+  rotate: false
+  index: -1
+sleeve_L
+  bounds: 1523,547,206,329
+  offsets: 0,0,206,329
+  rotate: false
+  index: -1
+boot_R
+  bounds: 1735,547,194,305
+  offsets: 0,0,194,305
+  rotate: false
+  index: -1
+boot_L
+  bounds: 3,1004,270,284
+  offsets: 0,0,270,284
+  rotate: false
+  index: -1
+hair_front_R
+  bounds: 279,1004,190,281
+  offsets: 0,0,190,281
+  rotate: false
+  index: -1
+hair_front_center
+  bounds: 475,1004,396,225
+  offsets: 0,0,396,225
+  rotate: false
+  index: -1
+hem_back
+  bounds: 877,1004,586,194
+  offsets: 0,0,586,194
+  rotate: false
+  index: -1
+hair_crown
+  bounds: 3,1294,627,193
+  offsets: 0,0,627,193
+  rotate: false
+  index: -1
+ear_R
+  bounds: 636,1294,94,157
+  offsets: 0,0,94,157
+  rotate: false
+  index: -1
+leg_L
+  bounds: 736,1294,145,154
+  offsets: 0,0,145,154
+  rotate: false
+  index: -1
+leg_R
+  bounds: 887,1294,156,147
+  offsets: 0,0,156,147
+  rotate: false
+  index: -1
+shorts_L
+  bounds: 1049,1294,167,142
+  offsets: 0,0,167,142
+  rotate: false
+  index: -1
+shorts_R
+  bounds: 1222,1294,177,125
+  offsets: 0,0,177,125
+  rotate: false
+  index: -1
+collar_R
+  bounds: 1405,1294,305,124
+  offsets: 0,0,305,124
+  rotate: false
+  index: -1
+eye_white_R
+  bounds: 1716,1294,117,122
+  offsets: 0,0,117,122
+  rotate: false
+  index: -1
+ear_L
+  bounds: 1839,1294,85,118
+  offsets: 0,0,85,118
+  rotate: false
+  index: -1
+mouth_inside
+  bounds: 3,1493,138,109
+  offsets: 0,0,138,109
+  rotate: false
+  index: -1
+mouth_line
+  bounds: 147,1493,140,109
+  offsets: 0,0,140,109
+  rotate: false
+  index: -1
+hip_fill_R
+  bounds: 293,1493,190,108
+  offsets: 0,0,190,108
+  rotate: false
+  index: -1
+hip_fill_L
+  bounds: 489,1493,170,105
+  offsets: 0,0,170,105
+  rotate: false
+  index: -1
+eye_white_L
+  bounds: 665,1493,124,104
+  offsets: 0,0,124,104
+  rotate: false
+  index: -1
+iris_L
+  bounds: 795,1493,83,102
+  offsets: 0,0,83,102
+  rotate: false
+  index: -1
+iris_R
+  bounds: 884,1493,84,102
+  offsets: 0,0,84,102
+  rotate: false
+  index: -1
+collar_L
+  bounds: 974,1493,161,102
+  offsets: 0,0,161,102
+  rotate: false
+  index: -1
+upper_lid_R
+  bounds: 1141,1493,140,101
+  offsets: 0,0,140,101
+  rotate: false
+  index: -1
+mouth_tongue
+  bounds: 1287,1493,116,89
+  offsets: 0,0,116,89
+  rotate: false
+  index: -1
+upper_lid_L
+  bounds: 1409,1493,141,87
+  offsets: 0,0,141,87
+  rotate: false
+  index: -1
+hand_L
+  bounds: 1556,1493,103,86
+  offsets: 0,0,103,86
+  rotate: false
+  index: -1
+crow
+  bounds: 1665,1493,78,81
+  offsets: 0,0,78,81
+  rotate: false
+  index: -1
+hand_R
+  bounds: 1749,1493,101,81
+  offsets: 0,0,101,81
+  rotate: false
+  index: -1
+neck
+  bounds: 1856,1493,109,80
+  offsets: 0,0,109,80
+  rotate: false
+  index: -1
+lower_lid_L
+  bounds: 3,1608,170,60
+  offsets: 0,0,170,60
+  rotate: false
+  index: -1
+blush_L
+  bounds: 179,1608,59,56
+  offsets: 0,0,59,56
+  rotate: false
+  index: -1
+mouth_teeth
+  bounds: 244,1608,102,55
+  offsets: 0,0,102,55
+  rotate: false
+  index: -1
+brow_R
+  bounds: 352,1608,51,50
+  offsets: 0,0,51,50
+  rotate: false
+  index: -1
+blush_R
+  bounds: 409,1608,64,50
+  offsets: 0,0,64,50
+  rotate: false
+  index: -1
+button_01
+  bounds: 479,1608,41,41
+  offsets: 0,0,41,41
+  rotate: false
+  index: -1
+button_02
+  bounds: 526,1608,41,41
+  offsets: 0,0,41,41
+  rotate: false
+  index: -1
+button_03
+  bounds: 573,1608,41,41
+  offsets: 0,0,41,41
+  rotate: false
+  index: -1
+button_04
+  bounds: 620,1608,41,41
+  offsets: 0,0,41,41
+  rotate: false
+  index: -1
+lower_lid_R
+  bounds: 667,1608,91,37
+  offsets: 0,0,91,37
+  rotate: false
+  index: -1
+brow_L
+  bounds: 764,1608,65,24
+  offsets: 0,0,65,24
+  rotate: false
+  index: -1
+nose
+  bounds: 835,1608,25,24
+  offsets: 0,0,25,24
+  rotate: false
+  index: -1

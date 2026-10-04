@@ -1,0 +1,30 @@
+{
+  "source": "../../output/hinata-spine-playful-v5",
+  "animations": [
+    "idle",
+    "hop",
+    "happy_bounce",
+    "head_juggle",
+    "sway",
+    "proud_hops",
+    "stunned",
+    "shocked",
+    "grin",
+    "determined",
+    "pickup",
+    "drag_hold",
+    "put_down",
+    "claw_release"
+  ],
+  "boneCount": 47,
+  "files": {
+    "preview-data.js": "b5473d2d119552ec53e0060f11a3d511485269155d194e577bd3097cf8028316",
+    "hinata-raincoat.json": "14d894beb15faa7fffec0afcb72dcd850669e22987c03e2a04a3bc5995f14b3c",
+    "hinata-raincoat.atlas": "b723a2662712780e248f84697619e83bbfdbd75b929193b7c4f4cb456593e880",
+    "hinata-atlas-1.png": "80a9c311523e740df4a405c9d8137daf4a10722232b8d9ac434775c94a779117",
+    "hinata-atlas-2.png": "9309c9cd554cebffefe2ff14858b6f140be618dcdc6d53437ce33e2ae800b586",
+    "asset-provenance.json": "f3e75a097319ff3d7a62f8aceba0b3126ed3c0be2cf5550bfcfc199b288406df",
+    "runtime/spine-webgl.js": "98e11bb97abf3dd8df842b6409978d0cfdc6d4ab6d7095ba90ca7810bcf0ebec",
+    "runtime/LICENSE.txt": "a903d9b640f93f9a5a3b3b4c7b8ac06881df92cb10c7838e56419748c184f599"
+  }
+}

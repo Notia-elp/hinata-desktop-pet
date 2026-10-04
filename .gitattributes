@@ -1,0 +1,2 @@
+# Preserve original bytes, including manifest-hashed animation and runtime assets.
+* -text

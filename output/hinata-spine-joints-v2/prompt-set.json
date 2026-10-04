@@ -1,0 +1,23 @@
+{
+  "mode": "built-in imagegen",
+  "purpose": "Only occluded raincoat fabric and hidden upper thighs for articulated animation. All approved face/hair and source-visible limb artwork retained.",
+  "source": "../hinata-live2d-v2/reference-approved.png",
+  "outputs": [
+    "coat-occlusion-generated.png",
+    "leg-caps-generated.png"
+  ],
+  "prompts": [
+    "Use case: precise-object-edit. Edit the supplied 1024x1536 transparent character image to produce a REGISTERED OCCLUSION UNDERLAY for skeletal animation. Preserve exact canvas 1024x1536, exact head/face/hair/hood/torso/shorts/legs/boots positions and proportions. ONLY remove BOTH ARMS entirely, including shoulder-attached long yellow sleeves and BOTH hands holding the coat hem. Reconstruct the yellow raincoat torso fabric BEHIND those arms and hands: naturally narrower torso contour, chest/side fabric and hem unpinched, continuous yellow fabric folds and matching warm yellow-orange hand-drawn shading, variable-color fine outline. Remove arm/sleeve silhouettes where they hang outside the true torso, leaving actual transparent background there. The chest black crow emblem and four orange buttons stay exactly at their original locations. Both arms and both hands must be absent. Do not move, scale, redesign or redraw the face, hair, legs or boots. Keep all remaining art at its original pixel placement, not a new pose. This is a hidden raincoat body layer underneath moving original arms, not a new character illustration. No checkerboard baked into pixels, no shadows, no labels, no background. Exact same full canvas registration, transparent background.",
+    "Use case: precise-object-edit. Make a registered rigging asset on exactly the SAME 1024x1536 transparent canvas as the reference. Show ONLY BOTH BARE LEGS AND YELLOW BOOTS in their EXACT reference positions and shapes, no head, no hair, no torso, no arms, no raincoat, no shorts. Preserve both existing knees, calves, boots at original coordinates. Extend/reconstruct the upper thighs which are hidden behind the original black shorts and yellow coat: screen-left thigh extends up from the visible leg around x435,y1200 to a rounded upper-thigh/hip cap centered x460,y1120, top around y1060, width roughly105px. Screen-right thigh extends from x700,y1250 to rounded cap centered x667,y1150, top around y1090, width roughly115px. Two independent legs, separate silhouettes, each round hidden hip cap and no connecting pelvis. Original warm peach skin, soft orange-brown shading, thin hand-drawn variable warm brown contours, match exactly the original leg style. Upper extensions will be covered by original shorts, needed to avoid missing skin when rotating the thighs. The source-visible lower thighs/knees and the orange-yellow boots must stay exactly at their current locations and proportions. Do NOT put the legs in the center of the image, do NOT enlarge or rearrange. Lots of transparent empty canvas above y1060. No text, no labels, no ground/shadow/background, no checkerboard baked into pixels. Exact source canvas registration."
+  ],
+  "usedRegions": [
+    {
+      "image": "coat-occlusion-generated.png",
+      "scope": "Only arm/hand mask positions intersecting raincoat body, excluding head."
+    },
+    {
+      "image": "leg-caps-generated.png",
+      "scope": "L: x380,y1060,width170,height105; R: x595,y1090,width190,height108; original foreground mask, drawn under original garments."
+    }
+  ]
+}

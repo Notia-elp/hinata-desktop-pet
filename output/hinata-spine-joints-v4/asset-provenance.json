@@ -1,0 +1,421 @@
+{
+  "source": "../hinata-live2d-v2",
+  "layerCount": 33,
+  "boneCount": 38,
+  "pageCount": 1,
+  "originalLayerFilesUnchanged": true,
+  "samplingSupport": {
+    "pixels": 4,
+    "source": "Neighboring approved-image pixels of the same rig attachment family only; no new drawing.",
+    "copiedSeamPixels": 111212
+  },
+  "boundaryRepair": {
+    "reassignedContourPixels": 5523,
+    "transferredPixelsRetainSourceRGB": true,
+    "jointAlphaMasksRefined": true,
+    "removedFromRuntime": "Exclusive-mask edge fragments are omitted from runtime surfaces; complete source pixels remain in original-layers/."
+  },
+  "sourceImageSHA256": "356450ea34b96bc6db673b1aa36bce403e2e065b0efe4597e749a1f0e2d5ae4a",
+  "runtime": "Official @esotericsoftware/spine-webgl 4.2 branch",
+  "runtimeSHA256": "98e11bb97abf3dd8df842b6409978d0cfdc6d4ab6d7095ba90ca7810bcf0ebec",
+  "occlusionUnderlay": {
+    "source": "coat-occlusion-generated.png",
+    "usedPixels": 211389,
+    "scope": "Localized hidden coat fills merged into the front mesh; separate rear skirt, registered painted boot cavities, calf overlap and complete hidden shorts."
+  },
+  "rig": "Arm sleeves and hands consolidated into continuous shared weighted meshes. Skin-only thigh/shin chains with dual-quaternion volume corrective baked to standard Spine mesh deform keys. Full boots rigidly bound to a single foot bone, independently counter-rotated. Leg IK baked to FK; planted cuff targets on ground.",
+  "archiveLayers": 47,
+  "runtimeSurfaces": [
+    {
+      "id": "coat_rear",
+      "originalParts": [
+        "coat_rear"
+      ]
+    },
+    {
+      "id": "boot_back_L",
+      "originalParts": [
+        "boot_back_L"
+      ]
+    },
+    {
+      "id": "boot_back_R",
+      "originalParts": [
+        "boot_back_R"
+      ]
+    },
+    {
+      "id": "leg_overlap_L",
+      "originalParts": [
+        "leg_overlap_L"
+      ]
+    },
+    {
+      "id": "leg_overlap_R",
+      "originalParts": [
+        "leg_overlap_R"
+      ]
+    },
+    {
+      "id": "leg_L",
+      "originalParts": [
+        "leg_L"
+      ]
+    },
+    {
+      "id": "leg_R",
+      "originalParts": [
+        "leg_R"
+      ]
+    },
+    {
+      "id": "boot_L",
+      "originalParts": [
+        "boot_L"
+      ]
+    },
+    {
+      "id": "boot_R",
+      "originalParts": [
+        "boot_R"
+      ]
+    },
+    {
+      "id": "boot_lip_L",
+      "originalParts": [
+        "boot_lip_L"
+      ]
+    },
+    {
+      "id": "boot_lip_R",
+      "originalParts": [
+        "boot_lip_R"
+      ]
+    },
+    {
+      "id": "neck_underlay",
+      "originalParts": [
+        "neck_underlay"
+      ]
+    },
+    {
+      "id": "shorts_hidden",
+      "originalParts": [
+        "shorts_hidden"
+      ]
+    },
+    {
+      "id": "coat_surface",
+      "originalParts": [
+        "neck",
+        "coat_torso",
+        "hood_back",
+        "collar_L",
+        "collar_R",
+        "hem_back",
+        "button_01",
+        "button_02",
+        "button_03",
+        "button_04",
+        "crow"
+      ]
+    },
+    {
+      "id": "button_01_rigid",
+      "originalParts": [
+        "button_01_rigid"
+      ]
+    },
+    {
+      "id": "button_02_rigid",
+      "originalParts": [
+        "button_02_rigid"
+      ]
+    },
+    {
+      "id": "button_03_rigid",
+      "originalParts": [
+        "button_03_rigid"
+      ]
+    },
+    {
+      "id": "button_04_rigid",
+      "originalParts": [
+        "button_04_rigid"
+      ]
+    },
+    {
+      "id": "face_base",
+      "originalParts": [
+        "face_base"
+      ]
+    },
+    {
+      "id": "hair_surface",
+      "originalParts": [
+        "hair_surface"
+      ]
+    },
+    {
+      "id": "eye_L",
+      "originalParts": [
+        "eye_L"
+      ]
+    },
+    {
+      "id": "eye_R",
+      "originalParts": [
+        "eye_R"
+      ]
+    },
+    {
+      "id": "brow_L",
+      "originalParts": [
+        "brow_L"
+      ]
+    },
+    {
+      "id": "brow_R",
+      "originalParts": [
+        "brow_R"
+      ]
+    },
+    {
+      "id": "nose",
+      "originalParts": [
+        "nose"
+      ]
+    },
+    {
+      "id": "mouth",
+      "originalParts": [
+        "mouth"
+      ]
+    },
+    {
+      "id": "cheek_L",
+      "originalParts": [
+        "cheek_L"
+      ]
+    },
+    {
+      "id": "cheek_R",
+      "originalParts": [
+        "cheek_R"
+      ]
+    },
+    {
+      "id": "eye_L_closed",
+      "originalParts": [
+        "eye_L_closed"
+      ]
+    },
+    {
+      "id": "eye_R_closed",
+      "originalParts": [
+        "eye_R_closed"
+      ]
+    },
+    {
+      "id": "mouth_closed",
+      "originalParts": [
+        "mouth_closed"
+      ]
+    },
+    {
+      "id": "arm_L",
+      "originalParts": [
+        "sleeve_L",
+        "hand_L"
+      ]
+    },
+    {
+      "id": "arm_R",
+      "originalParts": [
+        "sleeve_R",
+        "hand_R"
+      ]
+    }
+  ],
+  "chains": {
+    "arm_L": {
+      "A": [
+        453,
+        760
+      ],
+      "B": [
+        380,
+        920
+      ],
+      "C": [
+        375,
+        1000
+      ],
+      "a": {
+        "x": -59,
+        "y": 776
+      },
+      "b": {
+        "x": -132,
+        "y": 616
+      },
+      "c": {
+        "x": -137,
+        "y": 536
+      },
+      "theta1": -114.52484288599035,
+      "theta2": -93.57633437499736,
+      "len1": 175.86642658563346,
+      "len2": 80.15609770940699,
+      "sign": 1,
+      "names": [
+        "upper_arm_L",
+        "forearm_L",
+        "hand_L"
+      ],
+      "helper": "elbow_L"
+    },
+    "arm_R": {
+      "A": [
+        727,
+        735
+      ],
+      "B": [
+        780,
+        945
+      ],
+      "C": [
+        755,
+        1072
+      ],
+      "a": {
+        "x": 215,
+        "y": 801
+      },
+      "b": {
+        "x": 268,
+        "y": 591
+      },
+      "c": {
+        "x": 243,
+        "y": 464
+      },
+      "theta1": -75.8354347320401,
+      "theta2": -101.13630943118173,
+      "len1": 216.58485634965336,
+      "len2": 129.43724348115578,
+      "sign": -1,
+      "names": [
+        "upper_arm_R",
+        "forearm_R",
+        "hand_R"
+      ],
+      "helper": "elbow_R"
+    },
+    "leg_L": {
+      "A": [
+        470,
+        1157
+      ],
+      "B": [
+        429,
+        1210
+      ],
+      "C": [
+        434,
+        1274
+      ],
+      "a": {
+        "x": -42,
+        "y": 379
+      },
+      "b": {
+        "x": -83,
+        "y": 326
+      },
+      "c": {
+        "x": -78,
+        "y": 262
+      },
+      "theta1": -127.72499504211075,
+      "theta2": -85.53284093861072,
+      "len1": 67.00746227100382,
+      "len2": 64.19501538281614,
+      "sign": 1,
+      "names": [
+        "thigh_L",
+        "shin_L",
+        "foot_L"
+      ],
+      "helper": "knee_L"
+    },
+    "leg_R": {
+      "A": [
+        681,
+        1187
+      ],
+      "B": [
+        723,
+        1237
+      ],
+      "C": [
+        735,
+        1290
+      ],
+      "a": {
+        "x": 169,
+        "y": 349
+      },
+      "b": {
+        "x": 211,
+        "y": 299
+      },
+      "c": {
+        "x": 223,
+        "y": 246
+      },
+      "theta1": -49.9697407281103,
+      "theta2": -77.24246783912332,
+      "len1": 65.29931086925804,
+      "len2": 54.3415126767741,
+      "sign": -1,
+      "names": [
+        "thigh_R",
+        "shin_R",
+        "foot_R"
+      ],
+      "helper": "knee_R"
+    }
+  },
+  "articulation": {
+    "hem": "Each hem grab shares exactly the hand grip vertex position; wrist counter-rotation preserves cloth orientation.",
+    "face": "Two eyes, brows, nose, mouth and cheeks on separate bones; closed-eye and soft-smile attachment swaps.",
+    "hair": "Root and side locks animate independently with increased recoil.",
+    "boots": "Opaque painted interior cavities, rigid complete boot shells, registered calf overlap, antialiased joint masks."
+  },
+  "generationMode": "Built-in ImageGen; prompt-set.json records the executed local fill/expression prompts.",
+  "limitations": [
+    "目前只制作正面待机、单跳和连跳，未制作转身。",
+    "已通过 Spine 4.2 官方运行时加载和动画检查；未在 Spine 编辑器中执行导入。本包是 JSON/atlas/PNG，不含原生 .spine 文件。"
+  ],
+  "animations": [
+    {
+      "id": "idle",
+      "label": "待机呼吸",
+      "duration": 3.2,
+      "description": "呼吸、眨眼、笑口切换，眉毛和鼻子轻动，发梢轻摇。"
+    },
+    {
+      "id": "hop",
+      "label": "抓衣角蹦跳",
+      "duration": 2.4,
+      "description": "屈膝蓄力，抓着衣角上提；腾空笑眯眼，发梢回弹。"
+    },
+    {
+      "id": "happy_bounce",
+      "label": "开心连跳",
+      "duration": 2.4,
+      "description": "抓住衣角连续蹦跳，双膝收起，头发随起落摆动。"
+    }
+  ]
+}

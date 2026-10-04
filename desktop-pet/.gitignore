@@ -1,0 +1,6 @@
+node_modules/
+.cache/
+dist/
+test-output/
+data/
+settings.json

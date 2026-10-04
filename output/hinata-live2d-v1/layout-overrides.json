@@ -1,0 +1,11 @@
+{
+  "hair_front_L": {"rect":[269,202,118,330]},
+  "hair_front_R": {"rect":[719,185,81,253]},
+  "ear_R": {"rect":[748,359,91,133]},
+  "hair_front_center": {"rect":[353,157,359,259]},
+  "hair_cowlick": {"visible":false},
+  "leg_L": {"rect":[358,1158,136,198]},
+  "mouth_teeth": {"rect":[494,544,120,46]},
+  "mouth_tongue": {"rect":[507,593,103,43]},
+  "collar_L": {"rect":[458,653,116,127]}
+}

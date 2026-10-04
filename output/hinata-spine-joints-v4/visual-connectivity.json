@@ -1,0 +1,1480 @@
+{
+  "sampledFrames": 240,
+  "alphaThreshold": 128,
+  "pixelRatio": 2,
+  "largestDetachedPixels": 15,
+  "frames": [
+    {
+      "animation": "idle",
+      "time": 0,
+      "mainPixels": 339274,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "idle",
+      "time": 0.03333333333333333,
+      "mainPixels": 339357,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "idle",
+      "time": 0.06666666666666667,
+      "mainPixels": 339529,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 0.1,
+      "mainPixels": 339811,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "idle",
+      "time": 0.13333333333333333,
+      "mainPixels": 339989,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "idle",
+      "time": 0.16666666666666666,
+      "mainPixels": 340194,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "idle",
+      "time": 0.2,
+      "mainPixels": 340395,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "idle",
+      "time": 0.23333333333333334,
+      "mainPixels": 340580,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "idle",
+      "time": 0.26666666666666666,
+      "mainPixels": 340810,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "idle",
+      "time": 0.3,
+      "mainPixels": 340971,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "idle",
+      "time": 0.3333333333333333,
+      "mainPixels": 341165,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "idle",
+      "time": 0.36666666666666664,
+      "mainPixels": 341352,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "idle",
+      "time": 0.4,
+      "mainPixels": 341522,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "idle",
+      "time": 0.43333333333333335,
+      "mainPixels": 341750,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "idle",
+      "time": 0.4666666666666667,
+      "mainPixels": 341918,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 0.5,
+      "mainPixels": 342104,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "idle",
+      "time": 0.5333333333333333,
+      "mainPixels": 342271,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "idle",
+      "time": 0.5666666666666667,
+      "mainPixels": 342422,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 0.6,
+      "mainPixels": 342610,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 0.6333333333333333,
+      "mainPixels": 342816,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 0.6666666666666666,
+      "mainPixels": 342975,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 0.7,
+      "mainPixels": 343138,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 0.7333333333333333,
+      "mainPixels": 343295,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 0.7666666666666667,
+      "mainPixels": 343428,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 0.8,
+      "mainPixels": 343593,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 0.8333333333333334,
+      "mainPixels": 343738,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 0.8666666666666667,
+      "mainPixels": 343859,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 0.9,
+      "mainPixels": 343950,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 0.9333333333333333,
+      "mainPixels": 344113,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 0.9666666666666667,
+      "mainPixels": 344249,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 1,
+      "mainPixels": 344355,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.0333333333333334,
+      "mainPixels": 344453,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.0666666666666667,
+      "mainPixels": 344562,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.1,
+      "mainPixels": 344632,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.1333333333333333,
+      "mainPixels": 344699,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.1666666666666667,
+      "mainPixels": 344777,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 1.2,
+      "mainPixels": 344843,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 1.2333333333333334,
+      "mainPixels": 344905,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.2666666666666666,
+      "mainPixels": 344941,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "idle",
+      "time": 1.3,
+      "mainPixels": 345001,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 1.3333333333333333,
+      "mainPixels": 345005,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 1.3666666666666667,
+      "mainPixels": 345012,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.4,
+      "mainPixels": 345059,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.4333333333333333,
+      "mainPixels": 345059,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.4666666666666666,
+      "mainPixels": 345073,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 1.5,
+      "mainPixels": 345034,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 1.5333333333333334,
+      "mainPixels": 345017,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 1.5666666666666667,
+      "mainPixels": 344945,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 1.6,
+      "mainPixels": 344948,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 1.6333333333333333,
+      "mainPixels": 344920,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 1.6666666666666667,
+      "mainPixels": 344846,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 1.7,
+      "mainPixels": 344801,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 1.7333333333333334,
+      "mainPixels": 344701,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 1.7666666666666666,
+      "mainPixels": 344605,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.8,
+      "mainPixels": 344494,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.8333333333333333,
+      "mainPixels": 344401,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.8666666666666667,
+      "mainPixels": 344277,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.9,
+      "mainPixels": 344123,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 1.9333333333333333,
+      "mainPixels": 343935,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 1.9666666666666666,
+      "mainPixels": 343764,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 2,
+      "mainPixels": 343585,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 2.033333333333333,
+      "mainPixels": 343389,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 2.066666666666667,
+      "mainPixels": 343195,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 2.1,
+      "mainPixels": 342991,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 2.1333333333333333,
+      "mainPixels": 342779,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 2.1666666666666665,
+      "mainPixels": 342576,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 2.2,
+      "mainPixels": 342362,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 2.2333333333333334,
+      "mainPixels": 342162,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 2.2666666666666666,
+      "mainPixels": 341939,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 2.3,
+      "mainPixels": 341702,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 2.3333333333333335,
+      "mainPixels": 341491,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 2.3666666666666667,
+      "mainPixels": 341265,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 2.4,
+      "mainPixels": 341071,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 2.433333333333333,
+      "mainPixels": 340846,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 2.466666666666667,
+      "mainPixels": 340651,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 2.5,
+      "mainPixels": 340466,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 2.533333333333333,
+      "mainPixels": 340257,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 2.566666666666667,
+      "mainPixels": 340116,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 2.6,
+      "mainPixels": 339923,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 2.6333333333333333,
+      "mainPixels": 339780,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 2.6666666666666665,
+      "mainPixels": 339614,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 2.7,
+      "mainPixels": 339470,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 2.7333333333333334,
+      "mainPixels": 339379,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 2.7666666666666666,
+      "mainPixels": 339247,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 2.8,
+      "mainPixels": 339158,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 2.8333333333333335,
+      "mainPixels": 339035,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 2.8666666666666667,
+      "mainPixels": 338986,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 2.9,
+      "mainPixels": 338931,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 2.933333333333333,
+      "mainPixels": 338939,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "idle",
+      "time": 2.966666666666667,
+      "mainPixels": 338907,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 3,
+      "mainPixels": 338937,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "idle",
+      "time": 3.033333333333333,
+      "mainPixels": 338962,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 3.066666666666667,
+      "mainPixels": 338957,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "idle",
+      "time": 3.1,
+      "mainPixels": 339106,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "idle",
+      "time": 3.1333333333333333,
+      "mainPixels": 339238,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "idle",
+      "time": 3.1666666666666665,
+      "mainPixels": 339293,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "hop",
+      "time": 0,
+      "mainPixels": 339274,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "hop",
+      "time": 0.03333333333333333,
+      "mainPixels": 339308,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "hop",
+      "time": 0.06666666666666667,
+      "mainPixels": 339387,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "hop",
+      "time": 0.1,
+      "mainPixels": 339501,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "hop",
+      "time": 0.13333333333333333,
+      "mainPixels": 339662,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "hop",
+      "time": 0.16666666666666666,
+      "mainPixels": 340203,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "hop",
+      "time": 0.2,
+      "mainPixels": 341089,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "hop",
+      "time": 0.23333333333333334,
+      "mainPixels": 342138,
+      "largestDetachedPixels": 15
+    },
+    {
+      "animation": "hop",
+      "time": 0.26666666666666666,
+      "mainPixels": 343171,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "hop",
+      "time": 0.3,
+      "mainPixels": 343977,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "hop",
+      "time": 0.3333333333333333,
+      "mainPixels": 344349,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "hop",
+      "time": 0.36666666666666664,
+      "mainPixels": 344040,
+      "largestDetachedPixels": 12
+    },
+    {
+      "animation": "hop",
+      "time": 0.4,
+      "mainPixels": 343167,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "hop",
+      "time": 0.43333333333333335,
+      "mainPixels": 341958,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "hop",
+      "time": 0.4666666666666667,
+      "mainPixels": 340754,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "hop",
+      "time": 0.5,
+      "mainPixels": 340182,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "hop",
+      "time": 0.5333333333333333,
+      "mainPixels": 341217,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "hop",
+      "time": 0.5666666666666667,
+      "mainPixels": 343972,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "hop",
+      "time": 0.6,
+      "mainPixels": 347947,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "hop",
+      "time": 0.6333333333333333,
+      "mainPixels": 352364,
+      "largestDetachedPixels": 8
+    },
+    {
+      "animation": "hop",
+      "time": 0.6666666666666666,
+      "mainPixels": 356396,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "hop",
+      "time": 0.7,
+      "mainPixels": 359300,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "hop",
+      "time": 0.7333333333333333,
+      "mainPixels": 360312,
+      "largestDetachedPixels": 8
+    },
+    {
+      "animation": "hop",
+      "time": 0.7666666666666667,
+      "mainPixels": 360368,
+      "largestDetachedPixels": 10
+    },
+    {
+      "animation": "hop",
+      "time": 0.8,
+      "mainPixels": 360234,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "hop",
+      "time": 0.8333333333333334,
+      "mainPixels": 359893,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "hop",
+      "time": 0.8666666666666667,
+      "mainPixels": 359314,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "hop",
+      "time": 0.9,
+      "mainPixels": 358489,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "hop",
+      "time": 0.9333333333333333,
+      "mainPixels": 356504,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "hop",
+      "time": 0.9666666666666667,
+      "mainPixels": 353583,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "hop",
+      "time": 1,
+      "mainPixels": 350356,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "hop",
+      "time": 1.0333333333333334,
+      "mainPixels": 347707,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "hop",
+      "time": 1.0666666666666667,
+      "mainPixels": 345651,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "hop",
+      "time": 1.1,
+      "mainPixels": 344591,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "hop",
+      "time": 1.1333333333333333,
+      "mainPixels": 344479,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "hop",
+      "time": 1.1666666666666667,
+      "mainPixels": 344609,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "hop",
+      "time": 1.2,
+      "mainPixels": 345323,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "hop",
+      "time": 1.2333333333333334,
+      "mainPixels": 346787,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "hop",
+      "time": 1.2666666666666666,
+      "mainPixels": 348031,
+      "largestDetachedPixels": 7
+    },
+    {
+      "animation": "hop",
+      "time": 1.3,
+      "mainPixels": 348139,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "hop",
+      "time": 1.3333333333333333,
+      "mainPixels": 347784,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "hop",
+      "time": 1.3666666666666667,
+      "mainPixels": 346930,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "hop",
+      "time": 1.4,
+      "mainPixels": 345600,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "hop",
+      "time": 1.4333333333333333,
+      "mainPixels": 343473,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "hop",
+      "time": 1.4666666666666666,
+      "mainPixels": 341681,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "hop",
+      "time": 1.5,
+      "mainPixels": 340742,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "hop",
+      "time": 1.5333333333333334,
+      "mainPixels": 340311,
+      "largestDetachedPixels": 10
+    },
+    {
+      "animation": "hop",
+      "time": 1.5666666666666667,
+      "mainPixels": 340190,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "hop",
+      "time": 1.6,
+      "mainPixels": 340212,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "hop",
+      "time": 1.6333333333333333,
+      "mainPixels": 339899,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "hop",
+      "time": 1.6666666666666667,
+      "mainPixels": 339672,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "hop",
+      "time": 1.7,
+      "mainPixels": 339542,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "hop",
+      "time": 1.7333333333333334,
+      "mainPixels": 339527,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "hop",
+      "time": 1.7666666666666666,
+      "mainPixels": 339508,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "hop",
+      "time": 1.8,
+      "mainPixels": 339463,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "hop",
+      "time": 1.8333333333333333,
+      "mainPixels": 339402,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "hop",
+      "time": 1.8666666666666667,
+      "mainPixels": 339356,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "hop",
+      "time": 1.9,
+      "mainPixels": 339270,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "hop",
+      "time": 1.9333333333333333,
+      "mainPixels": 339229,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "hop",
+      "time": 1.9666666666666666,
+      "mainPixels": 339132,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "hop",
+      "time": 2,
+      "mainPixels": 339087,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "hop",
+      "time": 2.033333333333333,
+      "mainPixels": 339057,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "hop",
+      "time": 2.066666666666667,
+      "mainPixels": 339033,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "hop",
+      "time": 2.1,
+      "mainPixels": 339040,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "hop",
+      "time": 2.1333333333333333,
+      "mainPixels": 339060,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "hop",
+      "time": 2.1666666666666665,
+      "mainPixels": 339090,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "hop",
+      "time": 2.2,
+      "mainPixels": 339133,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "hop",
+      "time": 2.2333333333333334,
+      "mainPixels": 339127,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "hop",
+      "time": 2.2666666666666666,
+      "mainPixels": 339162,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "hop",
+      "time": 2.3,
+      "mainPixels": 339193,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "hop",
+      "time": 2.3333333333333335,
+      "mainPixels": 339244,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "hop",
+      "time": 2.3666666666666667,
+      "mainPixels": 339276,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0,
+      "mainPixels": 339274,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.03333333333333333,
+      "mainPixels": 339356,
+      "largestDetachedPixels": 0
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.06666666666666667,
+      "mainPixels": 340274,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.1,
+      "mainPixels": 342337,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.13333333333333333,
+      "mainPixels": 343678,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.16666666666666666,
+      "mainPixels": 344029,
+      "largestDetachedPixels": 14
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.2,
+      "mainPixels": 343995,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.23333333333333334,
+      "mainPixels": 343313,
+      "largestDetachedPixels": 12
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.26666666666666666,
+      "mainPixels": 342036,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.3,
+      "mainPixels": 340960,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.3333333333333333,
+      "mainPixels": 340434,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.36666666666666664,
+      "mainPixels": 341417,
+      "largestDetachedPixels": 12
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.4,
+      "mainPixels": 343823,
+      "largestDetachedPixels": 10
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.43333333333333335,
+      "mainPixels": 347457,
+      "largestDetachedPixels": 8
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.4666666666666667,
+      "mainPixels": 351842,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.5,
+      "mainPixels": 356105,
+      "largestDetachedPixels": 11
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.5333333333333333,
+      "mainPixels": 359180,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.5666666666666667,
+      "mainPixels": 360278,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.6,
+      "mainPixels": 360308,
+      "largestDetachedPixels": 10
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.6333333333333333,
+      "mainPixels": 360124,
+      "largestDetachedPixels": 12
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.6666666666666666,
+      "mainPixels": 359759,
+      "largestDetachedPixels": 8
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.7,
+      "mainPixels": 359271,
+      "largestDetachedPixels": 8
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.7333333333333333,
+      "mainPixels": 358579,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.7666666666666667,
+      "mainPixels": 356913,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.8,
+      "mainPixels": 353891,
+      "largestDetachedPixels": 7
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.8333333333333334,
+      "mainPixels": 350404,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.8666666666666667,
+      "mainPixels": 347294,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.9,
+      "mainPixels": 344995,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.9333333333333333,
+      "mainPixels": 343754,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 0.9666666666666667,
+      "mainPixels": 343501,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1,
+      "mainPixels": 343808,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.0333333333333334,
+      "mainPixels": 345047,
+      "largestDetachedPixels": 14
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.0666666666666667,
+      "mainPixels": 346170,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.1,
+      "mainPixels": 346159,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.1333333333333333,
+      "mainPixels": 344870,
+      "largestDetachedPixels": 7
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.1666666666666667,
+      "mainPixels": 343202,
+      "largestDetachedPixels": 8
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.2,
+      "mainPixels": 341953,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.2333333333333334,
+      "mainPixels": 340880,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.2666666666666666,
+      "mainPixels": 340647,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.3,
+      "mainPixels": 341984,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.3333333333333333,
+      "mainPixels": 344775,
+      "largestDetachedPixels": 2
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.3666666666666667,
+      "mainPixels": 348720,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.4,
+      "mainPixels": 353106,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.4333333333333333,
+      "mainPixels": 357369,
+      "largestDetachedPixels": 8
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.4666666666666666,
+      "mainPixels": 360879,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.5,
+      "mainPixels": 362910,
+      "largestDetachedPixels": 14
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.5333333333333334,
+      "mainPixels": 363802,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.5666666666666667,
+      "mainPixels": 363752,
+      "largestDetachedPixels": 13
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.6,
+      "mainPixels": 363319,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.6333333333333333,
+      "mainPixels": 362596,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.6666666666666667,
+      "mainPixels": 361531,
+      "largestDetachedPixels": 7
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.7,
+      "mainPixels": 360088,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.7333333333333334,
+      "mainPixels": 358264,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.7666666666666666,
+      "mainPixels": 355928,
+      "largestDetachedPixels": 8
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.8,
+      "mainPixels": 353145,
+      "largestDetachedPixels": 5
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.8333333333333333,
+      "mainPixels": 350506,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.8666666666666667,
+      "mainPixels": 348407,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.9,
+      "mainPixels": 346926,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.9333333333333333,
+      "mainPixels": 346311,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 1.9666666666666666,
+      "mainPixels": 346187,
+      "largestDetachedPixels": 7
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 2,
+      "mainPixels": 346580,
+      "largestDetachedPixels": 14
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 2.033333333333333,
+      "mainPixels": 347455,
+      "largestDetachedPixels": 8
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 2.066666666666667,
+      "mainPixels": 348144,
+      "largestDetachedPixels": 4
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 2.1,
+      "mainPixels": 348102,
+      "largestDetachedPixels": 12
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 2.1333333333333333,
+      "mainPixels": 347390,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 2.1666666666666665,
+      "mainPixels": 346016,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 2.2,
+      "mainPixels": 343814,
+      "largestDetachedPixels": 8
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 2.2333333333333334,
+      "mainPixels": 342054,
+      "largestDetachedPixels": 6
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 2.2666666666666666,
+      "mainPixels": 341050,
+      "largestDetachedPixels": 9
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 2.3,
+      "mainPixels": 340327,
+      "largestDetachedPixels": 3
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 2.3333333333333335,
+      "mainPixels": 339663,
+      "largestDetachedPixels": 1
+    },
+    {
+      "animation": "happy_bounce",
+      "time": 2.3666666666666667,
+      "mainPixels": 339305,
+      "largestDetachedPixels": 1
+    }
+  ],
+  "bootCavitiesOpaque": [
+    {
+      "time": 0,
+      "side": "L",
+      "alpha": 253
+    },
+    {
+      "time": 0,
+      "side": "R",
+      "alpha": 253
+    },
+    {
+      "time": 0.82,
+      "side": "L",
+      "alpha": 253
+    },
+    {
+      "time": 0.82,
+      "side": "R",
+      "alpha": 253
+    },
+    {
+      "time": 1.28,
+      "side": "L",
+      "alpha": 253
+    },
+    {
+      "time": 1.28,
+      "side": "R",
+      "alpha": 253
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+[
+  {
+    "id": "coat_rear",
+    "x": 260,
+    "y": 970,
+    "width": 650,
+    "height": 265,
+    "visible": true,
+    "group": "fixed_body"
+  },
+  {
+    "id": "boot_back_L",
+    "x": 357,
+    "y": 1241,
+    "width": 151,
+    "height": 67,
+    "visible": true,
+    "group": "boot",
+    "bone": "foot_L"
+  },
+  {
+    "id": "boot_back_R",
+    "x": 666,
+    "y": 1255,
+    "width": 151,
+    "height": 68,
+    "visible": true,
+    "group": "boot",
+    "bone": "foot_R"
+  },
+  {
+    "id": "leg_overlap_L",
+    "x": 386,
+    "y": 1252,
+    "width": 100,
+    "height": 50,
+    "visible": true,
+    "group": "boot",
+    "bone": "foot_L"
+  },
+  {
+    "id": "leg_overlap_R",
+    "x": 690,
+    "y": 1268,
+    "width": 99,
+    "height": 52,
+    "visible": true,
+    "group": "boot",
+    "bone": "foot_R"
+  },
+  {
+    "id": "leg_L",
+    "label": "左腿可见部分",
+    "group": "四肢",
+    "x": 381,
+    "y": 1138,
+    "width": 145,
+    "height": 154,
+    "visible": true,
+    "file": "layers/leg_L.png",
+    "origin": "approved-source-pixels",
+    "pixelCount": 12986
+  },
+  {
+    "id": "leg_R",
+    "label": "右腿可见部分",
+    "group": "四肢",
+    "x": 634,
+    "y": 1161,
+    "width": 156,
+    "height": 147,
+    "visible": true,
+    "file": "layers/leg_R.png",
+    "origin": "approved-source-pixels",
+    "pixelCount": 12353
+  },
+  {
+    "id": "boot_L",
+    "label": "左雨靴",
+    "group": "四肢",
+    "x": 254,
+    "y": 1217,
+    "width": 270,
+    "height": 284,
+    "visible": true,
+    "file": "layers/boot_L.png",
+    "origin": "approved-source-pixels",
+    "pixelCount": 36894
+  },
+  {
+    "id": "boot_R",
+    "label": "右雨靴",
+    "group": "四肢",
+    "x": 648,
+    "y": 1217,
+    "width": 194,
+    "height": 305,
+    "visible": true,
+    "file": "layers/boot_R.png",
+    "origin": "approved-source-pixels",
+    "pixelCount": 34768
+  },
+  {
+    "id": "boot_lip_L",
+    "x": 350,
+    "y": 1230,
+    "width": 205,
+    "height": 98,
+    "visible": true,
+    "group": "boot",
+    "bone": "foot_L"
+  },
+  {
+    "id": "boot_lip_R",
+    "x": 650,
+    "y": 1230,
+    "width": 190,
+    "height": 105,
+    "visible": true,
+    "group": "boot",
+    "bone": "foot_R"
+  },
+  {
+    "id": "neck_underlay",
+    "x": 510,
+    "y": 625,
+    "width": 210,
+    "height": 110,
+    "visible": true,
+    "group": "body"
+  },
+  {
+    "id": "shorts_hidden",
+    "x": 385,
+    "y": 990,
+    "width": 376,
+    "height": 228,
+    "visible": true,
+    "group": "body"
+  },
+  {
+    "id": "coat_surface",
+    "x": 264,
+    "y": 554,
+    "width": 619,
+    "height": 678,
+    "visible": true,
+    "originalParts": [
+      "neck",
+      "coat_torso",
+      "hood_back",
+      "collar_L",
+      "collar_R",
+      "hem_back",
+      "button_01",
+      "button_02",
+      "button_03",
+      "button_04",
+      "crow"
+    ]
+  },
+  {
+    "id": "button_01_rigid",
+    "x": 554,
+    "y": 749,
+    "width": 41,
+    "height": 41,
+    "visible": true,
+    "group": "button",
+    "bone": "button_01_rigid",
+    "center": [
+      574.5,
+      769.5
+    ]
+  },
+  {
+    "id": "button_02_rigid",
+    "x": 539,
+    "y": 850,
+    "width": 41,
+    "height": 41,
+    "visible": true,
+    "group": "button",
+    "bone": "button_02_rigid",
+    "center": [
+      559.5,
+      870.5
+    ]
+  },
+  {
+    "id": "button_03_rigid",
+    "x": 524,
+    "y": 961,
+    "width": 41,
+    "height": 41,
+    "visible": true,
+    "group": "button",
+    "bone": "button_03_rigid",
+    "center": [
+      544.5,
+      981.5
+    ]
+  },
+  {
+    "id": "button_04_rigid",
+    "x": 509,
+    "y": 1055,
+    "width": 41,
+    "height": 41,
+    "visible": true,
+    "group": "button",
+    "bone": "button_04_rigid",
+    "center": [
+      529.5,
+      1075.5
+    ]
+  },
+  {
+    "id": "face_base",
+    "x": 290,
+    "y": 245,
+    "width": 530,
+    "height": 450,
+    "visible": true,
+    "group": "face"
+  },
+  {
+    "id": "hair_surface",
+    "x": 111,
+    "y": 4,
+    "width": 770,
+    "height": 690,
+    "visible": true,
+    "group": "hair"
+  },
+  {
+    "id": "eye_L",
+    "x": 316,
+    "y": 444,
+    "width": 187,
+    "height": 155,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_L"
+  },
+  {
+    "id": "eye_R",
+    "x": 544,
+    "y": 346,
+    "width": 156,
+    "height": 159,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_R"
+  },
+  {
+    "id": "brow_L",
+    "x": 352,
+    "y": 401,
+    "width": 73,
+    "height": 32,
+    "visible": true,
+    "group": "feature",
+    "bone": "brow_L"
+  },
+  {
+    "id": "brow_R",
+    "x": 524,
+    "y": 323,
+    "width": 59,
+    "height": 58,
+    "visible": true,
+    "group": "feature",
+    "bone": "brow_R"
+  },
+  {
+    "id": "nose",
+    "x": 504,
+    "y": 506,
+    "width": 33,
+    "height": 32,
+    "visible": true,
+    "group": "feature",
+    "bone": "nose"
+  },
+  {
+    "id": "mouth",
+    "x": 480,
+    "y": 522,
+    "width": 148,
+    "height": 118,
+    "visible": true,
+    "group": "feature",
+    "bone": "mouth"
+  },
+  {
+    "id": "cheek_L",
+    "x": 393,
+    "y": 570,
+    "width": 67,
+    "height": 64,
+    "visible": true,
+    "group": "feature",
+    "bone": "cheek_L"
+  },
+  {
+    "id": "cheek_R",
+    "x": 634,
+    "y": 487,
+    "width": 72,
+    "height": 58,
+    "visible": true,
+    "group": "feature",
+    "bone": "cheek_R"
+  },
+  {
+    "id": "eye_L_closed",
+    "x": 337,
+    "y": 470,
+    "width": 140,
+    "height": 88,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_L",
+    "alternateFor": "eye_L"
+  },
+  {
+    "id": "eye_R_closed",
+    "x": 547,
+    "y": 393,
+    "width": 150,
+    "height": 88,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_R",
+    "alternateFor": "eye_R"
+  },
+  {
+    "id": "mouth_closed",
+    "x": 501,
+    "y": 552,
+    "width": 112,
+    "height": 62,
+    "visible": true,
+    "group": "feature",
+    "bone": "mouth",
+    "alternateFor": "mouth"
+  },
+  {
+    "id": "arm_L",
+    "x": 299,
+    "y": 704,
+    "width": 206,
+    "height": 363,
+    "visible": true,
+    "originalParts": [
+      "sleeve_L",
+      "hand_L"
+    ]
+  },
+  {
+    "id": "arm_R",
+    "x": 653,
+    "y": 687,
+    "width": 210,
+    "height": 444,
+    "visible": true,
+    "originalParts": [
+      "sleeve_R",
+      "hand_R"
+    ]
+  }
+]

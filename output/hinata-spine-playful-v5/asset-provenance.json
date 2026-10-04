@@ -1,0 +1,821 @@
+{
+  "source": "../hinata-live2d-v2",
+  "layerCount": 64,
+  "boneCount": 47,
+  "pageCount": 2,
+  "originalLayerFilesUnchanged": true,
+  "samplingSupport": {
+    "pixels": 4,
+    "source": "Neighboring approved-image pixels of the same rig attachment family only; no new drawing.",
+    "copiedSeamPixels": 111212
+  },
+  "boundaryRepair": {
+    "reassignedContourPixels": 5523,
+    "transferredPixelsRetainSourceRGB": true,
+    "jointAlphaMasksRefined": true,
+    "removedFromRuntime": "Exclusive-mask edge fragments are omitted from runtime surfaces; complete source pixels remain in original-layers/."
+  },
+  "sourceImageSHA256": "356450ea34b96bc6db673b1aa36bce403e2e065b0efe4597e749a1f0e2d5ae4a",
+  "runtime": "Official @esotericsoftware/spine-webgl 4.2 branch",
+  "runtimeSHA256": "98e11bb97abf3dd8df842b6409978d0cfdc6d4ab6d7095ba90ca7810bcf0ebec",
+  "occlusionUnderlay": {
+    "source": "coat-occlusion-generated.png",
+    "usedPixels": 211389,
+    "scope": "Localized hidden coat fills merged into the front mesh; separate rear skirt, registered painted boot cavities, calf overlap and complete hidden shorts."
+  },
+  "rig": "Arm sleeves and hands consolidated into continuous shared weighted meshes. Skin-only thigh/shin chains with dual-quaternion volume corrective baked to standard Spine mesh deform keys. Full boots rigidly bound to a single foot bone, independently counter-rotated. Leg IK baked to FK; planted cuff targets on ground.",
+  "archiveLayers": 47,
+  "runtimeSurfaces": [
+    {
+      "id": "claw_link_L",
+      "originalParts": [
+        "claw_link_L"
+      ]
+    },
+    {
+      "id": "claw_finger_L",
+      "originalParts": [
+        "claw_finger_L"
+      ]
+    },
+    {
+      "id": "claw_link_R",
+      "originalParts": [
+        "claw_link_R"
+      ]
+    },
+    {
+      "id": "claw_finger_R",
+      "originalParts": [
+        "claw_finger_R"
+      ]
+    },
+    {
+      "id": "claw_back_finger",
+      "originalParts": [
+        "claw_back_finger"
+      ]
+    },
+    {
+      "id": "coat_rear",
+      "originalParts": [
+        "coat_rear"
+      ]
+    },
+    {
+      "id": "boot_back_L",
+      "originalParts": [
+        "boot_back_L"
+      ]
+    },
+    {
+      "id": "boot_back_R",
+      "originalParts": [
+        "boot_back_R"
+      ]
+    },
+    {
+      "id": "leg_overlap_L",
+      "originalParts": [
+        "leg_overlap_L"
+      ]
+    },
+    {
+      "id": "leg_overlap_R",
+      "originalParts": [
+        "leg_overlap_R"
+      ]
+    },
+    {
+      "id": "leg_L",
+      "originalParts": [
+        "leg_L"
+      ]
+    },
+    {
+      "id": "leg_R",
+      "originalParts": [
+        "leg_R"
+      ]
+    },
+    {
+      "id": "boot_L",
+      "originalParts": [
+        "boot_L"
+      ]
+    },
+    {
+      "id": "boot_R",
+      "originalParts": [
+        "boot_R"
+      ]
+    },
+    {
+      "id": "boot_lip_L",
+      "originalParts": [
+        "boot_lip_L"
+      ]
+    },
+    {
+      "id": "boot_lip_R",
+      "originalParts": [
+        "boot_lip_R"
+      ]
+    },
+    {
+      "id": "hair_rear_complete",
+      "originalParts": [
+        "hair_rear_complete"
+      ]
+    },
+    {
+      "id": "neck_underlay",
+      "originalParts": [
+        "neck_underlay"
+      ]
+    },
+    {
+      "id": "shorts_hidden",
+      "originalParts": [
+        "shorts_hidden"
+      ]
+    },
+    {
+      "id": "coat_surface",
+      "originalParts": [
+        "neck",
+        "coat_torso",
+        "hood_back",
+        "collar_L",
+        "collar_R",
+        "hem_back",
+        "button_01",
+        "button_02",
+        "button_03",
+        "button_04",
+        "crow"
+      ]
+    },
+    {
+      "id": "button_01_rigid",
+      "originalParts": [
+        "button_01_rigid"
+      ]
+    },
+    {
+      "id": "button_02_rigid",
+      "originalParts": [
+        "button_02_rigid"
+      ]
+    },
+    {
+      "id": "button_03_rigid",
+      "originalParts": [
+        "button_03_rigid"
+      ]
+    },
+    {
+      "id": "button_04_rigid",
+      "originalParts": [
+        "button_04_rigid"
+      ]
+    },
+    {
+      "id": "claw_pad_L",
+      "originalParts": [
+        "claw_pad_L"
+      ]
+    },
+    {
+      "id": "claw_pad_R",
+      "originalParts": [
+        "claw_pad_R"
+      ]
+    },
+    {
+      "id": "scalp_underlay",
+      "originalParts": [
+        "scalp_underlay"
+      ]
+    },
+    {
+      "id": "face_base",
+      "originalParts": [
+        "face_base"
+      ]
+    },
+    {
+      "id": "hair_surface",
+      "originalParts": [
+        "hair_surface"
+      ]
+    },
+    {
+      "id": "eye_L",
+      "originalParts": [
+        "eye_L"
+      ]
+    },
+    {
+      "id": "eye_R",
+      "originalParts": [
+        "eye_R"
+      ]
+    },
+    {
+      "id": "brow_L",
+      "originalParts": [
+        "brow_L"
+      ]
+    },
+    {
+      "id": "brow_R",
+      "originalParts": [
+        "brow_R"
+      ]
+    },
+    {
+      "id": "nose",
+      "originalParts": [
+        "nose"
+      ]
+    },
+    {
+      "id": "mouth",
+      "originalParts": [
+        "mouth"
+      ]
+    },
+    {
+      "id": "cheek_L",
+      "originalParts": [
+        "cheek_L"
+      ]
+    },
+    {
+      "id": "cheek_R",
+      "originalParts": [
+        "cheek_R"
+      ]
+    },
+    {
+      "id": "eye_L_closed",
+      "originalParts": [
+        "eye_L_closed"
+      ]
+    },
+    {
+      "id": "eye_R_closed",
+      "originalParts": [
+        "eye_R_closed"
+      ]
+    },
+    {
+      "id": "mouth_closed",
+      "originalParts": [
+        "mouth_closed"
+      ]
+    },
+    {
+      "id": "eye_L_stunned",
+      "originalParts": [
+        "eye_L_stunned"
+      ]
+    },
+    {
+      "id": "eye_R_stunned",
+      "originalParts": [
+        "eye_R_stunned"
+      ]
+    },
+    {
+      "id": "brow_L_stunned",
+      "originalParts": [
+        "brow_L_stunned"
+      ]
+    },
+    {
+      "id": "brow_R_stunned",
+      "originalParts": [
+        "brow_R_stunned"
+      ]
+    },
+    {
+      "id": "mouth_stunned",
+      "originalParts": [
+        "mouth_stunned"
+      ]
+    },
+    {
+      "id": "eye_L_shocked",
+      "originalParts": [
+        "eye_L_shocked"
+      ]
+    },
+    {
+      "id": "eye_R_shocked",
+      "originalParts": [
+        "eye_R_shocked"
+      ]
+    },
+    {
+      "id": "brow_L_shocked",
+      "originalParts": [
+        "brow_L_shocked"
+      ]
+    },
+    {
+      "id": "brow_R_shocked",
+      "originalParts": [
+        "brow_R_shocked"
+      ]
+    },
+    {
+      "id": "mouth_shocked",
+      "originalParts": [
+        "mouth_shocked"
+      ]
+    },
+    {
+      "id": "eye_L_grin",
+      "originalParts": [
+        "eye_L_grin"
+      ]
+    },
+    {
+      "id": "eye_R_grin",
+      "originalParts": [
+        "eye_R_grin"
+      ]
+    },
+    {
+      "id": "brow_L_grin",
+      "originalParts": [
+        "brow_L_grin"
+      ]
+    },
+    {
+      "id": "brow_R_grin",
+      "originalParts": [
+        "brow_R_grin"
+      ]
+    },
+    {
+      "id": "mouth_grin",
+      "originalParts": [
+        "mouth_grin"
+      ]
+    },
+    {
+      "id": "eye_L_determined",
+      "originalParts": [
+        "eye_L_determined"
+      ]
+    },
+    {
+      "id": "eye_R_determined",
+      "originalParts": [
+        "eye_R_determined"
+      ]
+    },
+    {
+      "id": "brow_L_determined",
+      "originalParts": [
+        "brow_L_determined"
+      ]
+    },
+    {
+      "id": "brow_R_determined",
+      "originalParts": [
+        "brow_R_determined"
+      ]
+    },
+    {
+      "id": "mouth_determined",
+      "originalParts": [
+        "mouth_determined"
+      ]
+    },
+    {
+      "id": "arm_L",
+      "originalParts": [
+        "sleeve_L",
+        "hand_L"
+      ]
+    },
+    {
+      "id": "arm_R",
+      "originalParts": [
+        "sleeve_R",
+        "hand_R"
+      ]
+    },
+    {
+      "id": "volleyball",
+      "originalParts": [
+        "volleyball"
+      ]
+    },
+    {
+      "id": "claw_machine_arm",
+      "originalParts": [
+        "claw_machine_arm"
+      ]
+    }
+  ],
+  "chains": {
+    "arm_L": {
+      "A": [
+        453,
+        760
+      ],
+      "B": [
+        380,
+        920
+      ],
+      "C": [
+        375,
+        1000
+      ],
+      "a": {
+        "x": -59,
+        "y": 776
+      },
+      "b": {
+        "x": -132,
+        "y": 616
+      },
+      "c": {
+        "x": -137,
+        "y": 536
+      },
+      "theta1": -114.52484288599035,
+      "theta2": -93.57633437499736,
+      "len1": 175.86642658563346,
+      "len2": 80.15609770940699,
+      "sign": 1,
+      "names": [
+        "upper_arm_L",
+        "forearm_L",
+        "hand_L"
+      ],
+      "helper": "elbow_L"
+    },
+    "arm_R": {
+      "A": [
+        727,
+        735
+      ],
+      "B": [
+        780,
+        945
+      ],
+      "C": [
+        755,
+        1072
+      ],
+      "a": {
+        "x": 215,
+        "y": 801
+      },
+      "b": {
+        "x": 268,
+        "y": 591
+      },
+      "c": {
+        "x": 243,
+        "y": 464
+      },
+      "theta1": -75.8354347320401,
+      "theta2": -101.13630943118173,
+      "len1": 216.58485634965336,
+      "len2": 129.43724348115578,
+      "sign": -1,
+      "names": [
+        "upper_arm_R",
+        "forearm_R",
+        "hand_R"
+      ],
+      "helper": "elbow_R"
+    },
+    "leg_L": {
+      "A": [
+        470,
+        1157
+      ],
+      "B": [
+        429,
+        1210
+      ],
+      "C": [
+        434,
+        1274
+      ],
+      "a": {
+        "x": -42,
+        "y": 379
+      },
+      "b": {
+        "x": -83,
+        "y": 326
+      },
+      "c": {
+        "x": -78,
+        "y": 262
+      },
+      "theta1": -127.72499504211075,
+      "theta2": -85.53284093861072,
+      "len1": 67.00746227100382,
+      "len2": 64.19501538281614,
+      "sign": 1,
+      "names": [
+        "thigh_L",
+        "shin_L",
+        "foot_L"
+      ],
+      "helper": "knee_L"
+    },
+    "leg_R": {
+      "A": [
+        681,
+        1187
+      ],
+      "B": [
+        723,
+        1237
+      ],
+      "C": [
+        735,
+        1290
+      ],
+      "a": {
+        "x": 169,
+        "y": 349
+      },
+      "b": {
+        "x": 211,
+        "y": 299
+      },
+      "c": {
+        "x": 223,
+        "y": 246
+      },
+      "theta1": -49.9697407281103,
+      "theta2": -77.24246783912332,
+      "len1": 65.29931086925804,
+      "len2": 54.3415126767741,
+      "sign": -1,
+      "names": [
+        "thigh_R",
+        "shin_R",
+        "foot_R"
+      ],
+      "helper": "knee_R"
+    }
+  },
+  "jumpMouthRepair": {
+    "clips": [
+      "hop",
+      "happy_bounce",
+      "proud_hops"
+    ],
+    "scale": "Constant original smile proportions; no independent joy-driven scaling.",
+    "movement": "Head-bound, with at most 0.65 source pixels of local lift tied to actual airborne height."
+  },
+  "articulation": {
+    "hem": "Each hem grab shares exactly the hand grip vertex position; wrist counter-rotation preserves cloth orientation.",
+    "face": "Two eyes, brows, nose, mouth and cheeks on separate bones; closed-eye and soft-smile attachments plus stunned, shocked, grin and determined expression attachments.",
+    "hair": "Head-following hair with restrained inertial lag: crown at most 2.1 degrees, side locks at most 1.155 degrees, vertical offset at most 0.8 source pixels; one damped landing rebound.",
+    "boots": "Opaque painted interior cavities, rigid complete boot shells, registered calf overlap, antialiased joint masks.",
+    "volleyball": "Parabolic bounce, continuous spin and short contact squash; lower ellipse edge meets the painted crown at source pixel (462,14).",
+    "groundedLegs": "Solve leg targets after the loop envelope; new clips sampled at 120 Hz, original V4 clips at unchanged 60 Hz."
+  },
+  "generationMode": "Built-in ImageGen; prompt-set.json records the executed local fill/expression prompts.",
+  "headOcclusionRepair": {
+    "scalp": "Single ImageGen head plate registered by ear landmarks; continuous clean ears/jaw shared by face and scalp, without overlapping old cut contours.",
+    "rearHair": "Complete independently painted rear hairstyle with shaded layered locks and naturally outlined nape tufts. Shares front-hair topology and base weights, excluding the front-only fringe pivot; lies behind neck/face/hood.",
+    "paintSource": "art/rear-hair-left-nape-registered.png",
+    "registration": "head-contour-registration.json",
+    "frontHair": "Retain only the main front-hair contour and antialias fringe; remove detached rear locks and stray cut pixels.",
+    "coatContourCleanup": {
+      "removedComponents": 3,
+      "mainPixels": 208441
+    },
+    "jawNeck": "Existing painted neck underlay retained."
+  },
+  "leftNapeRedraw": {
+    "mode": "Built-in ImageGen",
+    "prompt": "art/left-nape-redraw-prompt.json",
+    "source": "art/rear-hair-left-nape-generated.png",
+    "registered": "art/rear-hair-left-nape-registered.png",
+    "scope": "Only the exposed lower-left rear curtain; broad flowing tapered locks replace repeated dangling needles. Original crown/right and concealed inner nape preserved."
+  },
+  "fringeMotion": {
+    "pivot": "hair_fringe is a child of the restrained crown, rooted at source (490,250).",
+    "scope": "Front fringe only, additional rotation up to 2.1 degrees blended toward the tips with broad weight transitions. Crown, rear, outer-left and side motion remain unchanged.",
+    "artwork": "Original painted front hair, UVs and topology preserved; no new image patches."
+  },
+  "leftOutlineOwnership": {
+    "source": "Existing painted front-hair and registered head alpha mattes",
+    "scope": "Only the redundant outer-left rear tip at source x=201..222, y=500..540 and its antialias fringe; fade ends at x=240 and y=560. Lower nape remains untouched.",
+    "paintedRGBUnchanged": true
+  },
+  "garmentEdges": {
+    "front": {
+      "trimmedPixels": 1373,
+      "scope": "Median alpha trim at collar and hem, constrained to the approved outer silhouette; no new painted pixels."
+    },
+    "rear": {
+      "trimmedPixels": 14353,
+      "scope": "Median alpha trim at collar and hem, constrained to the approved outer silhouette; no new painted pixels."
+    },
+    "pants": "Remove navy ownership remnants and obsolete cutout ink from front-side cloth; pants retain their dedicated complete painted attachment.",
+    "rearPainting": {
+      "mode": "Built-in ImageGen",
+      "source": "art/coat-rear-continuous-generated-v2.png",
+      "prompts": "art/garment-cleanup-prompts.json",
+      "registration": "Resize 1950x796 to the existing 650x265 rear attachment at source (260,970); constrain to the approved outside silhouette.",
+      "scope": "Complete continuous yellow rear fabric, no shorts cutouts or duplicate front-hem interior ink. The former opaque outside extrusion is removed."
+    },
+    "frontSide": "Reuse registered completed rear-cloth RGB in the existing front side flaps below their front matte; preserve original outer ink, alpha, rig and hand contact.",
+    "collar": "Rejoin the existing complete painted hood rim at source x=700..855, y=570..665; omit orange nape fragments and the old circular protrusion above the hood."
+  },
+  "leftHairRepair": {
+    "pivot": "Dedicated hair_outer_L keeps the outer locks coherent, with bounded 0.5 degree recoil; all hair timelines damped to follow the head.",
+    "weights": "Outer-left locks keep 92% hair support on one pivot; correction fades between source x=335..410 and y=430..530.",
+    "paint": "Original approved front hair RGB and complete painted rear hair retained; no new painted patches.",
+    "validation": "left-hair-validation.json"
+  },
+  "dragInteraction": {
+    "clips": {
+      "pickup": {
+        "seconds": 0.36,
+        "loop": false
+      },
+      "drag_hold": {
+        "seconds": 2.4,
+        "loop": true
+      },
+      "put_down": {
+        "seconds": 0.5,
+        "loop": false
+      }
+    },
+    "controller": "pet-drag-controller.js",
+    "source": "../../tools/pet-drag-controller.js",
+    "holdMilliseconds": 300,
+    "sway": {
+      "factor": 1.5,
+      "velocityResponse": 0.0075,
+      "limitDegrees": 9,
+      "previousLimitDegrees": 6,
+      "hairAndMouthUnchanged": true
+    },
+    "behaviour": "Painted-pixel hit testing, pointer capture, grab-point anchoring, bounded inertial sway, release fall aligned with landing-to-idle transition; cancel/focus loss release safely.",
+    "hostCallbacks": [
+      "onPickup",
+      "onMove",
+      "onDrop",
+      "onLand",
+      "onIdle"
+    ],
+    "coordinates": [
+      "clientX",
+      "clientY",
+      "screenX",
+      "screenY",
+      "rootX",
+      "rootY"
+    ],
+    "preview": "preview.html?view=drag"
+  },
+  "clawMachine": {
+    "mode": "Built-in ImageGen",
+    "paint": "art/claw-parts-generated-v2.png",
+    "prompt": "art/claw-prompt-v2.json",
+    "registration": "art/claw-rig.json",
+    "source": "../../tools/prepare-claw.cjs",
+    "mechanicalParts": 8,
+    "addedBones": 6,
+    "style": "Rounded cream enamel, orange joint caps, friendly smiling hub and soft orange contact pads.",
+    "characterBoneIndicesPreserved": true,
+    "grip": "Baked two-link IK follows the painted raincoat shoulder points; metal pieces stay rigid.",
+    "depth": "Linkages and third finger behind the head; rubber tips in front of the coat, behind the face; short piston and hub above the head.",
+    "release": "claw_release runs on track 1 immediately on release, independent of the landing clip on track 0; the rig stays at the release height and retracts while the character falls.",
+    "visibility": "Hidden during idle and all ten existing actions.",
+    "validation": [
+      "claw-validation.json",
+      "claw-sway-validation.json",
+      "drag-interaction-validation.json",
+      "drag-visual-validation.json"
+    ],
+    "preview": "preview.html?view=drag&revision=claw-cute-sway-v2"
+  },
+  "limitations": [
+    "共十三条角色动作/表情动画，另加 claw_release 机械抓夹释放辅助动画；预览已接入鼠标交互，尚未制作转身或正式 Windows 桌宠应用。",
+    "使用 Spine 4.2 官方运行时验证；尚未在 Spine 编辑器中执行导入。本项目是 JSON/atlas/PNG，不含原生 .spine 文件。"
+  ],
+  "animations": [
+    {
+      "id": "idle",
+      "label": "待机呼吸",
+      "duration": 3.2,
+      "description": "呼吸、眨眼、笑口切换，眉毛和鼻子轻动，发梢轻摇。"
+    },
+    {
+      "id": "hop",
+      "label": "抓衣角蹦跳",
+      "duration": 2.4,
+      "description": "屈膝蓄力，抓着衣角上提；腾空笑眯眼，发梢回弹。"
+    },
+    {
+      "id": "happy_bounce",
+      "label": "开心连跳",
+      "duration": 2.4,
+      "description": "抓住衣角连续蹦跳，双膝收起，头发随起落摆动。"
+    },
+    {
+      "id": "head_juggle",
+      "label": "头顶颠球",
+      "duration": 3.6,
+      "category": "motion",
+      "description": "抬头认真盯球，屈膝顶起排球，蓝黄排球连续落下再弹起。"
+    },
+    {
+      "id": "sway",
+      "label": "左右摇摆",
+      "duration": 3.2,
+      "category": "motion",
+      "description": "脚下站稳，轻轻歪头摇摆，衣角、袖子和发梢一起跟随。"
+    },
+    {
+      "id": "proud_hops",
+      "label": "得意小跳",
+      "duration": 2.4,
+      "category": "motion",
+      "description": "咧嘴露齿笑，抓着衣角轻快小跳两下。"
+    },
+    {
+      "id": "stunned",
+      "label": "白眼呆住",
+      "duration": 2.8,
+      "category": "expression",
+      "description": "白圈圈眼、歪嘴和一小滴口水，呆呆晃一下。"
+    },
+    {
+      "id": "shocked",
+      "label": "惊讶大叫",
+      "duration": 2.8,
+      "category": "expression",
+      "description": "瞪圆眼睛、挑起眉毛，张大嘴巴惊呼。"
+    },
+    {
+      "id": "grin",
+      "label": "咧嘴笑",
+      "duration": 3.2,
+      "category": "expression",
+      "description": "笑眯眼和露齿笑，配合轻轻点头和发梢回弹。"
+    },
+    {
+      "id": "determined",
+      "label": "认真脸",
+      "duration": 3.2,
+      "category": "expression",
+      "description": "皱起小眉毛，抿嘴盯着上方，发梢轻轻晃动。"
+    },
+    {
+      "id": "pickup",
+      "label": "抓夹提起",
+      "duration": 0.36,
+      "category": "interaction",
+      "loop": false,
+      "description": "短机械臂伸下，三爪合拢雨衣肩部，身体随后被提起。"
+    },
+    {
+      "id": "drag_hold",
+      "label": "抓夹悬空晃晃",
+      "duration": 2.4,
+      "category": "interaction",
+      "loop": true,
+      "description": "抓夹托着雨衣两侧，双腿交替轻晃，手臂、衣角与发梢跟随。"
+    },
+    {
+      "id": "put_down",
+      "label": "张爪放下",
+      "duration": 0.5,
+      "category": "interaction",
+      "loop": false,
+      "description": "抓爪张开、机械臂收回，角色伸腿落地、屈膝缓冲，再恢复待机。"
+    }
+  ],
+  "volleyballSizing": {
+    "paintedHeadWidth": 770,
+    "baseBallDiameter": 172,
+    "diameter": 513.3333333333334,
+    "relativeToHead": 0.6666666666666666,
+    "scale": 2.984496124031008,
+    "contact": "Ellipse lower edge remains on the moving painted crown; radius included in each translation key.",
+    "otherAnimationsAndMeshesUnchanged": true,
+    "source": "../../tools/resize-volleyball.cjs"
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "mode": "Built-in ImageGen",
+  "paint": "art/claw-parts-generated-v2.png",
+  "prompt": "art/claw-prompt-v2.json",
+  "style": "Rounded cream enamel, orange joint caps, friendly smiling hub and soft orange contact pads.",
+  "rig": {
+    "hub": [
+      550,
+      -90
+    ],
+    "L": {
+      "A": [
+        510,
+        -65
+      ],
+      "B": [
+        150,
+        250
+      ],
+      "C": [
+        410,
+        770
+      ]
+    },
+    "R": {
+      "A": [
+        590,
+        -65
+      ],
+      "B": [
+        955,
+        245
+      ],
+      "C": [
+        827,
+        770
+      ]
+    }
+  },
+  "bones": [
+    {
+      "name": "claw_root",
+      "parent": "motion",
+      "x": 38,
+      "y": 1626
+    },
+    {
+      "name": "claw_upper_L",
+      "parent": "claw_root",
+      "x": -40,
+      "y": -25,
+      "rotation": -138.81407483429035,
+      "length": 478.35656157305925
+    },
+    {
+      "name": "claw_lower_L",
+      "parent": "claw_upper_L",
+      "x": 478.35656157305925,
+      "y": -8.526512829121202e-14,
+      "rotation": 75.37912601136834,
+      "length": 581.3776741499454
+    },
+    {
+      "name": "claw_upper_R",
+      "parent": "claw_root",
+      "x": 40,
+      "y": -25,
+      "rotation": -40.34174589032438,
+      "length": 478.8788990966296
+    },
+    {
+      "name": "claw_lower_R",
+      "parent": "claw_upper_R",
+      "x": 478.87889909662965,
+      "y": -2.842170943040401e-14,
+      "rotation": -63.36019027013639,
+      "length": 540.3785710036992
+    },
+    {
+      "name": "claw_back",
+      "parent": "claw_root",
+      "x": 0,
+      "y": 0,
+      "rotation": -81.68235075589361,
+      "length": 864.0891157745247
+    }
+  ],
+  "layers": [
+    {
+      "id": "claw_machine_arm",
+      "x": 483,
+      "y": -348,
+      "width": 137,
+      "height": 304,
+      "visible": true,
+      "hidden": true,
+      "group": "claw",
+      "bone": "claw_root",
+      "depth": "front",
+      "registration": {
+        "sourceA": [
+          407,
+          540
+        ],
+        "sourceB": [
+          407,
+          33
+        ],
+        "targetA": [
+          550,
+          -90
+        ],
+        "targetB": [
+          550,
+          -330
+        ],
+        "mirror": false,
+        "a": 0.47337278106508873,
+        "b": 0,
+        "ox": 485.14792899408286,
+        "oy": -345.6213017751479
+      }
+    },
+    {
+      "id": "claw_link_L",
+      "x": 33,
+      "y": -180,
+      "width": 598,
+      "height": 553,
+      "visible": true,
+      "hidden": true,
+      "group": "claw",
+      "bone": "claw_upper_L",
+      "depth": "rear",
+      "registration": {
+        "sourceA": [
+          891,
+          110
+        ],
+        "sourceB": [
+          891,
+          548
+        ],
+        "targetA": [
+          510,
+          -65
+        ],
+        "targetB": [
+          150,
+          250
+        ],
+        "mirror": false,
+        "a": 0.7191780821917808,
+        "b": 0.821917808219178,
+        "ox": 520.5821917808219,
+        "oy": -177.29452054794518
+      }
+    },
+    {
+      "id": "claw_finger_L",
+      "x": -155,
+      "y": 116,
+      "width": 814,
+      "height": 813,
+      "visible": true,
+      "hidden": true,
+      "group": "claw",
+      "bone": "claw_lower_L",
+      "depth": "rear",
+      "registration": {
+        "sourceA": [
+          313,
+          710
+        ],
+        "sourceB": [
+          467,
+          1168
+        ],
+        "targetA": [
+          150,
+          250
+        ],
+        "targetB": [
+          410,
+          770
+        ],
+        "mirror": true,
+        "a": 0.8485523385300668,
+        "b": -0.8530066815144766,
+        "ox": -152.44097995545656,
+        "oy": 417.5456570155902
+      }
+    },
+    {
+      "id": "claw_pad_L",
+      "x": 330,
+      "y": 705,
+      "width": 155,
+      "height": 110,
+      "visible": true,
+      "hidden": true,
+      "group": "claw",
+      "bone": "claw_lower_L",
+      "depth": "pad"
+    },
+    {
+      "id": "claw_link_R",
+      "x": 475,
+      "y": -186,
+      "width": 603,
+      "height": 547,
+      "visible": true,
+      "hidden": true,
+      "group": "claw",
+      "bone": "claw_upper_R",
+      "depth": "rear",
+      "registration": {
+        "sourceA": [
+          891,
+          110
+        ],
+        "sourceB": [
+          891,
+          548
+        ],
+        "targetA": [
+          590,
+          -65
+        ],
+        "targetB": [
+          955,
+          245
+        ],
+        "mirror": false,
+        "a": 0.7077625570776256,
+        "b": -0.8333333333333334,
+        "ox": 477.2488584474886,
+        "oy": -58.915525114155244
+      }
+    },
+    {
+      "id": "claw_finger_R",
+      "x": 573,
+      "y": 123,
+      "width": 694,
+      "height": 782,
+      "visible": true,
+      "hidden": true,
+      "group": "claw",
+      "bone": "claw_lower_R",
+      "depth": "rear",
+      "registration": {
+        "sourceA": [
+          313,
+          710
+        ],
+        "sourceB": [
+          467,
+          1168
+        ],
+        "targetA": [
+          955,
+          245
+        ],
+        "targetB": [
+          827,
+          770
+        ],
+        "mirror": false,
+        "a": 0.9454257323967792,
+        "b": 0.597370224430358,
+        "ox": 933.7735394894638,
+        "oy": 125.75791502484154
+      }
+    },
+    {
+      "id": "claw_pad_R",
+      "x": 747,
+      "y": 705,
+      "width": 155,
+      "height": 110,
+      "visible": true,
+      "hidden": true,
+      "group": "claw",
+      "bone": "claw_lower_R",
+      "depth": "pad"
+    },
+    {
+      "id": "claw_back_finger",
+      "x": 379,
+      "y": -265,
+      "width": 497,
+      "height": 1169,
+      "visible": true,
+      "hidden": true,
+      "group": "claw",
+      "bone": "claw_back",
+      "depth": "rear",
+      "registration": {
+        "sourceA": [
+          906,
+          709
+        ],
+        "sourceB": [
+          885,
+          1167
+        ],
+        "targetA": [
+          550,
+          -90
+        ],
+        "targetB": [
+          675,
+          765
+        ],
+        "mirror": false,
+        "a": 1.850407935110963,
+        "b": -0.35776979615137605,
+        "ox": 381.1051830356081,
+        "oy": -208.99172236626148
+      }
+    }
+  ]
+}

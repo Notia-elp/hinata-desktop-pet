@@ -1,0 +1,200 @@
+{
+  "source": "../hinata-live2d-v2",
+  "layerCount": 49,
+  "boneCount": 22,
+  "pageCount": 1,
+  "originalLayerFilesUnchanged": true,
+  "samplingSupport": {
+    "pixels": 4,
+    "source": "Neighboring approved-image pixels only; no new drawing.",
+    "copiedSeamPixels": 115757
+  },
+  "boundaryRepair": {
+    "reassignedContourPixels": 4192,
+    "sourceRGBAUnchanged": true,
+    "removedFromRuntime": "597 isolated low-alpha edge particles, kept in original-layers/."
+  },
+  "sourceImageSHA256": "356450ea34b96bc6db673b1aa36bce403e2e065b0efe4597e749a1f0e2d5ae4a",
+  "runtime": "Official @esotericsoftware/spine-webgl 4.2 branch",
+  "runtimeSHA256": "98e11bb97abf3dd8df842b6409978d0cfdc6d4ab6d7095ba90ca7810bcf0ebec",
+  "occlusionUnderlay": {
+    "source": "coat-occlusion-generated.png",
+    "usedPixels": 61947,
+    "scope": "Only original arm/hand occluded areas; head and all original visible layers remain source art."
+  },
+  "rig": "Articulated upper-arm/forearm/hand and thigh/shin/foot chains. Two-bone leg IK baked to FK; planted ankles and counter-rotated feet. Weighted shared mesh within each limb family.",
+  "chains": {
+    "arm_L": {
+      "A": [
+        455,
+        778
+      ],
+      "B": [
+        368,
+        900
+      ],
+      "C": [
+        375,
+        1015
+      ],
+      "a": {
+        "x": -57,
+        "y": 758
+      },
+      "b": {
+        "x": -144,
+        "y": 636
+      },
+      "c": {
+        "x": -137,
+        "y": 521
+      },
+      "theta1": -125.49322801073431,
+      "theta2": -86.51672853100233,
+      "len1": 149.84325143295575,
+      "len2": 115.2128465059344,
+      "sign": 1,
+      "names": [
+        "upper_arm_L",
+        "forearm_L",
+        "hand_L"
+      ],
+      "helper": "elbow_L"
+    },
+    "arm_R": {
+      "A": [
+        705,
+        755
+      ],
+      "B": [
+        785,
+        945
+      ],
+      "C": [
+        757,
+        1091
+      ],
+      "a": {
+        "x": 193,
+        "y": 781
+      },
+      "b": {
+        "x": 273,
+        "y": 591
+      },
+      "c": {
+        "x": 245,
+        "y": 445
+      },
+      "theta1": -67.16634582208245,
+      "theta2": -100.85641334806226,
+      "len1": 206.155281280883,
+      "len2": 148.66068747318508,
+      "sign": -1,
+      "names": [
+        "upper_arm_R",
+        "forearm_R",
+        "hand_R"
+      ],
+      "helper": "elbow_R"
+    },
+    "leg_L": {
+      "A": [
+        460,
+        1154
+      ],
+      "B": [
+        435,
+        1243
+      ],
+      "C": [
+        386,
+        1428
+      ],
+      "a": {
+        "x": -52,
+        "y": 382
+      },
+      "b": {
+        "x": -77,
+        "y": 293
+      },
+      "c": {
+        "x": -126,
+        "y": 108
+      },
+      "theta1": -105.68999292908389,
+      "theta2": -104.83499219425873,
+      "len1": 92.44457799135654,
+      "len2": 191.3792047219342,
+      "sign": 1,
+      "names": [
+        "thigh_L",
+        "shin_L",
+        "foot_L"
+      ],
+      "helper": "knee_L"
+    },
+    "leg_R": {
+      "A": [
+        667,
+        1186
+      ],
+      "B": [
+        706,
+        1285
+      ],
+      "C": [
+        735,
+        1440
+      ],
+      "a": {
+        "x": 155,
+        "y": 350
+      },
+      "b": {
+        "x": 194,
+        "y": 251
+      },
+      "c": {
+        "x": 223,
+        "y": 96
+      },
+      "theta1": -68.4985656759521,
+      "theta2": -79.40266485497644,
+      "len1": 106.4048871058092,
+      "len2": 157.68956845650888,
+      "sign": -1,
+      "names": [
+        "thigh_R",
+        "shin_R",
+        "foot_R"
+      ],
+      "helper": "knee_R"
+    }
+  },
+  "limitations": [
+    "雨衣遮挡区域已局部补绘；未制作转身或眨眼。",
+    "未在 Spine 编辑器中执行导入；本包是 JSON/atlas/PNG，不含原生 .spine 文件。"
+  ],
+  "animations": [
+    {
+      "id": "idle",
+      "label": "待机呼吸",
+      "duration": 3.2,
+      "description": "轻轻呼吸，肘部轻弯，手腕和发梢微动。"
+    },
+    {
+      "id": "hop",
+      "label": "屈膝蹦跳",
+      "duration": 2.4,
+      "description": "屈膝蓄力 → 摆臂起跳 → 收腿 → 脚底着地缓冲。"
+    },
+    {
+      "id": "happy_bounce",
+      "label": "开心连跳",
+      "duration": 2.4,
+      "description": "连续蹦跳，双肘抬起弯曲，膝盖收拢，雨靴翻动。"
+    }
+  ]
+}

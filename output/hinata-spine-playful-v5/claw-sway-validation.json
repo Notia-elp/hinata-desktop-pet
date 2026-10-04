@@ -1,0 +1,73 @@
+{
+  "heldSwayFactor": 1.5,
+  "rotations": {
+    "body": {
+      "previousPeakToPeakDegrees": 2.4,
+      "currentPeakToPeakDegrees": 3.6,
+      "factor": 1.5
+    },
+    "chest": {
+      "previousPeakToPeakDegrees": 1.3,
+      "currentPeakToPeakDegrees": 1.95,
+      "factor": 1.5
+    },
+    "head": {
+      "previousPeakToPeakDegrees": 1.5,
+      "currentPeakToPeakDegrees": 2.25,
+      "factor": 1.5
+    },
+    "upper_arm_L": {
+      "previousPeakToPeakDegrees": 6,
+      "currentPeakToPeakDegrees": 9,
+      "factor": 1.5
+    },
+    "upper_arm_R": {
+      "previousPeakToPeakDegrees": 5.999998,
+      "currentPeakToPeakDegrees": 8.999996,
+      "factor": 1.4999998333332778
+    },
+    "forearm_L": {
+      "previousPeakToPeakDegrees": 8,
+      "currentPeakToPeakDegrees": 12,
+      "factor": 1.5
+    },
+    "forearm_R": {
+      "previousPeakToPeakDegrees": 7.999995999999999,
+      "currentPeakToPeakDegrees": 11.999994000000001,
+      "factor": 1.5000000000000002
+    }
+  },
+  "mouseResponse": [
+    {
+      "velocityPixelsPerSecond": 300,
+      "previousSwing": -1.5003108201180184,
+      "currentSwing": -2.250466230177027,
+      "factor": 1.4999999999999996,
+      "maximumScalingError": 1.7763568394002505e-15
+    },
+    {
+      "velocityPixelsPerSecond": -600,
+      "previousSwing": 3.000621640236037,
+      "currentSwing": 4.500932460354054,
+      "factor": 1.4999999999999996,
+      "maximumScalingError": 3.552713678800501e-15
+    },
+    {
+      "velocityPixelsPerSecond": 1400,
+      "previousSwing": -6,
+      "currentSwing": -9,
+      "factor": 1.5,
+      "maximumScalingError": 7.105427357601002e-15
+    },
+    {
+      "velocityPixelsPerSecond": -1400,
+      "previousSwing": 6,
+      "currentSwing": 9,
+      "factor": 1.5,
+      "maximumScalingError": 7.105427357601002e-15
+    }
+  ],
+  "currentDragLimitDegrees": 9,
+  "previousDragLimitDegrees": 6,
+  "hairAndMouthMotionUnchanged": true
+}

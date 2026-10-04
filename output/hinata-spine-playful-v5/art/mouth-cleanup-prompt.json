@@ -1,0 +1,8 @@
+{
+  "mode": "Built-in ImageGen",
+  "asset": "mouth-shocked-isolated.png",
+  "prompt": "Edit this extracted mouth into a clean standalone Spine expression attachment. Preserve the same tilted open shouting mouth: dark warm brown interior, cream white upper teeth band, white lower tooth band, pink rounded tongue, warm brown hand drawn contour with variable width and fine hatching. Remove the stray second brown line underneath and to the bottom right, which is an accidentally extracted jaw line. Keep a single continuous clean mouth perimeter. Only the isolated mouth, no skin or face or nose or cheeks or text. Keep exact slant and proportions and warm hand drawn anime shading. Center it with generous transparent margins. Real transparent alpha background, no peach background, no shadow, no glow.",
+  "refs": [
+    "art/mouth-extraction-review.png"
+  ]
+}

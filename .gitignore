@@ -1,0 +1,40 @@
+# Dependencies, build results and local state
+node_modules/
+.cache/
+__pycache__/
+*.py[cod]
+desktop-pet/dist/
+desktop-pet/test-output/
+desktop-pet/data/
+exports/
+*.log
+*.tmp
+*.temp
+Thumbs.db
+.DS_Store
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.template
+.npmrc
+.pypirc
+.aws/
+.ssh/
+.codex/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Regenerable animation review frames and exported packages
+output/**/frames/
+output/**/*.gif
+output/**/*.webp
+output/**/*.mp4
+output/**/*.webm
+output/**/*.zip
+output/*.zip

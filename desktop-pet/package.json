@@ -1,0 +1,14 @@
+{
+  "name": "hinata-desktop-pet",
+  "productName": "日向雨衣桌宠",
+  "version": "0.1.0",
+  "description": "Windows desktop pet using the approved Hinata raincoat Spine animations",
+  "main": "main.cjs",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/*.test.cjs",
+    "build:win": "powershell -NoProfile -ExecutionPolicy Bypass -File build-windows.ps1"
+  },
+  "devDependencies": { "electron": "44.5.1", "sharp": "0.35.4" }
+}

@@ -1,0 +1,56 @@
+hinata-atlas-1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pma: false
+head_surface
+  bounds: 3,3,771,690
+  offsets: 0,0,771,690
+  rotate: false
+  index: -1
+coat_surface
+  bounds: 780,3,619,678
+  offsets: 0,0,619,678
+  rotate: false
+  index: -1
+coat_occlusion_underlay
+  bounds: 3,699,650,510
+  offsets: 0,0,650,510
+  rotate: false
+  index: -1
+arm_R
+  bounds: 659,699,210,444
+  offsets: 0,0,210,444
+  rotate: false
+  index: -1
+arm_L
+  bounds: 875,699,206,363
+  offsets: 0,0,206,363
+  rotate: false
+  index: -1
+boot_R
+  bounds: 1087,699,194,305
+  offsets: 0,0,194,305
+  rotate: false
+  index: -1
+boot_L
+  bounds: 1287,699,270,284
+  offsets: 0,0,270,284
+  rotate: false
+  index: -1
+shorts
+  bounds: 1563,699,383,169
+  offsets: 0,0,383,169
+  rotate: false
+  index: -1
+leg_L
+  bounds: 3,1215,145,154
+  offsets: 0,0,145,154
+  rotate: false
+  index: -1
+leg_R
+  bounds: 154,1215,156,147
+  offsets: 0,0,156,147
+  rotate: false
+  index: -1

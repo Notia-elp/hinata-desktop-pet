@@ -1,0 +1,43 @@
+{
+  "mode": "Built-in ImageGen",
+  "created": "2026-10-03",
+  "status": "Generated assets registered to the rig; previews prepared for user review.",
+  "jobs": [
+    {
+      "asset": "expression-stunned.png",
+      "prompt": "Use case: precise-object-edit. First image is the edit target: the APPROVED chibi Hinata Shoyo in the yellow raincoat. Keep canvas exactly 1024x1536 and character scale, position and face tilt exactly unchanged. Change ONLY the facial expression. Keep face silhouette, peach skin shading, ears, orange hair, raincoat, hands, legs and boots IDENTICAL. Preserve warm hand-drawn variable-width colored brown outlines. Second image, where provided, is ONLY an expression reference, not an outfit/style reference. No text, no glow, no ground shadow. Actual transparent background outside the character. These are registered Spine face attachment sources; facial landmarks remain left eye (412,521), right eye (620,432), nose (520,522), mouth (555,580). Expression: comedic stunned blank stare matching reference. Both eyes become plain rounded white circles with thin warm brown outlines, absolutely NO irises, NO pupils, NO highlights. Brows raised and awkward. Small lopsided closed smile near original mouth with ONE tiny pale blue drool bead at the right mouth corner. Cheeks softly flushed. Same recognizable chibi face. Do not change pose.",
+      "refs": [
+        "C:/Users/Notia/Documents/ChatGPT/桌宠/output/hinata-live2d-v2/reference-approved.png",
+        "C:/Users/Notia/AppData/Local/Temp/codex-clipboard-eeb81707-e927-4f56-8668-74dfe4a1691e.jpg"
+      ]
+    },
+    {
+      "asset": "expression-shocked.png",
+      "prompt": "Use case: precise-object-edit. First image is the edit target: the APPROVED chibi Hinata Shoyo in the yellow raincoat. Keep canvas exactly 1024x1536 and character scale, position and face tilt exactly unchanged. Change ONLY the facial expression. Keep face silhouette, peach skin shading, ears, orange hair, raincoat, hands, legs and boots IDENTICAL. Preserve warm hand-drawn variable-width colored brown outlines. Second image, where provided, is ONLY an expression reference, not an outfit/style reference. No text, no glow, no ground shadow. Actual transparent background outside the character. These are registered Spine face attachment sources; facial landmarks remain left eye (412,521), right eye (620,432), nose (520,522), mouth (555,580). Expression: adorably shocked loud gasp matching reference. Eyes wide open, small ROUND amber brown pupils inside large white eyes, worried raised eyebrows. Mouth opens vertically into a large rounded O/gasp with small white upper teeth and warm pink tongue, dark brown inner cavity. Blushing cheek hatch marks. Keep mouth within original facial silhouette, center near (555,580). No changes outside facial features.",
+      "refs": [
+        "C:/Users/Notia/Documents/ChatGPT/桌宠/output/hinata-live2d-v2/reference-approved.png",
+        "C:/Users/Notia/AppData/Local/Temp/codex-clipboard-4d6f1b69-28f5-4e04-b08f-28feda958f8e.jpg"
+      ]
+    },
+    {
+      "asset": "expression-grin.png",
+      "prompt": "Use case: precise-object-edit. First image is the edit target: the APPROVED chibi Hinata Shoyo in the yellow raincoat. Keep canvas exactly 1024x1536 and character scale, position and face tilt exactly unchanged. Change ONLY the facial expression. Keep face silhouette, peach skin shading, ears, orange hair, raincoat, hands, legs and boots IDENTICAL. Preserve warm hand-drawn variable-width colored brown outlines. Second image, where provided, is ONLY an expression reference, not an outfit/style reference. No text, no glow, no ground shadow. Actual transparent background outside the character. These are registered Spine face attachment sources; facial landmarks remain left eye (412,521), right eye (620,432), nose (520,522), mouth (555,580). Expression: happy proud TOOTHY GRIN matching the top-middle smile in the expression collage. Eyes squeeze shut into warm curved upper-lid smiles, asymmetrically joyful. Mouth is a broad curved closed grin with one continuous white tooth band, thin warm dark brown outline, tiny understated tooth division lines, NO big pink open-mouth interior. Cheeks lightly flushed. Same face identity and diagonal tilt.",
+      "refs": [
+        "C:/Users/Notia/Documents/ChatGPT/桌宠/output/hinata-live2d-v2/reference-approved.png",
+        "C:/Users/Notia/AppData/Local/Temp/codex-clipboard-6aa0c48e-77fa-4e2a-bf82-1dd39e73652f.jpg"
+      ]
+    },
+    {
+      "asset": "expression-determined.png",
+      "prompt": "Use case: precise-object-edit. First image is the edit target: the APPROVED chibi Hinata Shoyo in the yellow raincoat. Keep canvas exactly 1024x1536 and character scale, position and face tilt exactly unchanged. Change ONLY the facial expression. Keep face silhouette, peach skin shading, ears, orange hair, raincoat, hands, legs and boots IDENTICAL. Preserve warm hand-drawn variable-width colored brown outlines. Second image, where provided, is ONLY an expression reference, not an outfit/style reference. No text, no glow, no ground shadow. Actual transparent background outside the character. These are registered Spine face attachment sources; facial landmarks remain left eye (412,521), right eye (620,432), nose (520,522), mouth (555,580). Expression: endearing serious concentration, like the center portrait of the collage. Amber eyes look slightly upward as though balancing a volleyball on the head, brows angled inward, cheeks slightly puffed, small pursed downturned mouth. No angry teeth, no open mouth, no exaggerated face-shape change. Keep both visible brown irises and eye highlights. Only expression changes.",
+      "refs": [
+        "C:/Users/Notia/Documents/ChatGPT/桌宠/output/hinata-live2d-v2/reference-approved.png",
+        "C:/Users/Notia/AppData/Local/Temp/codex-clipboard-6aa0c48e-77fa-4e2a-bf82-1dd39e73652f.jpg"
+      ]
+    },
+    {
+      "asset": "volleyball-generated.png",
+      "prompt": "Asset type: one isolated 2D blue-and-yellow volleyball for a hand-drawn chibi desktop pet animation. A perfectly round coherent volleyball, alternating rich cobalt blue and warm sunny yellow curving panel sections, recognizable volleyball panel seams, subtle soft 2D cel shading and tiny warm highlight. Warm dark brown variable-thickness hand-drawn outer outline and seam lines; cute anime illustration matches a yellow-raincoat orange-haired chibi, not 3D or photorealistic. Ball only, centered, large within a square canvas, uniform circular contour. NO motion lines, character, hands, ground shadow, glow, words or background. Genuinely transparent outside the ball."
+    }
+  ]
+}

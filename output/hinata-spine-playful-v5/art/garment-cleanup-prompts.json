@@ -1,0 +1,14 @@
+{
+  "mode": "Built-in ImageGen",
+  "target": "custom/coat_rear.png",
+  "calls": [
+    {
+      "prompt": "Use case: precise-object-edit. Edit target: Image 1 is a transparent rear raincoat skirt sprite, a cropped back layer for a hand-painted chibi character. Keep the exact wide 650:265 canvas aspect ratio, same placement and same outside silhouette. Primary request: repair ONLY the inside of this rear skirt: fill both dark transparent shorts/leg cutouts with continuous opaque golden-yellow painted fabric, REMOVE all dangling vertical leg contour lines below the skirt, and REMOVE the obsolete diagonal/front-hem contour line across the interior so this reads as ONE continuous rear skirt behind the front coat. Preserve the original curved outside hem, dark warm-brown variable-width hand-drawn ink outline, yellow colors and nuanced angular warm shadows. Reconstruct natural rear-fabric folds over the filled cutout areas, matching the adjoining existing cloth. All pixels inside the skirt silhouette must have full opacity. The visible bottom outside contour must be one smooth curved ink line; no duplicated band, no serrated fringes, no thin lines protruding outside, no trousers, no legs, no hands, no buttons, no head, no extra objects, no text. Keep genuine transparent background outside. Preserve exact leftmost/rightmost positions and the bottom rear hem shape. Top edge remains cropped as in input; do not add empty margins or resize the sprite within the frame.",
+      "generated": "art/coat-rear-continuous-generated-v1.png"
+    },
+    {
+      "prompt": "Precise object edit of the provided transparent rear-skirt sprite. ONE requested change: ERASE ALL THE THICK DARK LINES INSIDE THE FABRIC. In particular remove the vertical black line descending from the top at 41 percent of the image width, the diagonal black line running from left middle to that junction, and the long black curved horizontal line across the middle-to-right interior. Those lines belong to a front coat that will be a separate moving layer; leaving them makes a duplicate hem. Replace these interior lines with seamlessly painted opaque yellow fabric and soft angular shadow folds. The sprite must read as a SINGLE rear skirt panel: only its OUTSIDE silhouette has dark brown ink. Keep the exact wide canvas 1950:796 proportions, identical outside silhouette, bottom-most curved outline, cropped top edge, yellow palette and hand-painted texture, placement, and genuine transparency outside. Keep all interior fabric fully opaque, with zero cutouts, no trouser/leg outlines, no new seam/band, no hard dark interior contours. Preserve the real outside perimeter while removing only interior black outlines.",
+      "generated": "art/coat-rear-continuous-generated-v2.png"
+    }
+  ]
+}

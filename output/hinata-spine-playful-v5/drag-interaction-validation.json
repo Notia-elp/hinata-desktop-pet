@@ -1,0 +1,46 @@
+{
+  "existingAnimationsUnchanged": [
+    "idle",
+    "hop",
+    "happy_bounce",
+    "head_juggle",
+    "sway",
+    "proud_hops",
+    "stunned",
+    "shocked",
+    "grin",
+    "determined"
+  ],
+  "existingMeshesAndBonesUnchanged": true,
+  "landingCharacterTimelinesUnchanged": true,
+  "requestedHeldSwayFactor": 1.5,
+  "addedMechanicalBones": 6,
+  "addedMechanicalParts": 8,
+  "shortClickIgnored": true,
+  "transparentBackgroundIgnored": true,
+  "longPressMs": 300,
+  "pointerAnchoringErrorPixels": 0,
+  "heldAnimation": "drag_hold",
+  "dragLiftSourcePixels": 379.8941660561002,
+  "claw": {
+    "heldParts": [
+      "claw_link_L",
+      "claw_finger_L",
+      "claw_link_R",
+      "claw_finger_R",
+      "claw_back_finger",
+      "claw_pad_L",
+      "claw_pad_R",
+      "claw_machine_arm"
+    ],
+    "opensImmediatelyOnRelease": true,
+    "independentReleaseTrack": "claw_release",
+    "machineStaysAboveDroppingCharacter": true,
+    "hiddenDuringIdle": true,
+    "releaseTrackCleared": true
+  },
+  "releaseReturnsIdle": true,
+  "releaseOutsideCanvas": true,
+  "focusLossReleases": true,
+  "pageErrors": []
+}

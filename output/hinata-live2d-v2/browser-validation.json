@@ -1,0 +1,13 @@
+{
+  "loadedImages": 47,
+  "defaultVisible": 47,
+  "sourceComparison": {
+    "changedCanvasPixels": 0,
+    "maxChannelDifference": 0
+  },
+  "layerToggle": "passed",
+  "reset": "passed",
+  "gallery": "passed",
+  "comparison": "passed",
+  "browserErrors": []
+}

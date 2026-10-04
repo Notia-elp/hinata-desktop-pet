@@ -1,0 +1,8 @@
+{
+  "width": 770,
+  "height": 690,
+  "changedAlphaPixels": 1423,
+  "scope": "Narrow left rear ownership extension; original painted RGB retained. Runtime atlas sampling extrusion is separate.",
+  "comparison": "left-extra-tip-compare.png",
+  "audit": "visual-validation.json"
+}

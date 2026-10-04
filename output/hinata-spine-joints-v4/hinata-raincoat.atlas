@@ -1,0 +1,171 @@
+hinata-atlas-1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pma: false
+hair_surface
+  bounds: 3,3,770,690
+  offsets: 0,0,770,690
+  rotate: false
+  index: -1
+coat_surface
+  bounds: 779,3,619,678
+  offsets: 0,0,619,678
+  rotate: false
+  index: -1
+face_base
+  bounds: 1404,3,530,450
+  offsets: 0,0,530,450
+  rotate: false
+  index: -1
+arm_R
+  bounds: 3,699,210,444
+  offsets: 0,0,210,444
+  rotate: false
+  index: -1
+arm_L
+  bounds: 219,699,206,363
+  offsets: 0,0,206,363
+  rotate: false
+  index: -1
+boot_R
+  bounds: 431,699,194,305
+  offsets: 0,0,194,305
+  rotate: false
+  index: -1
+boot_L
+  bounds: 631,699,270,284
+  offsets: 0,0,270,284
+  rotate: false
+  index: -1
+coat_rear
+  bounds: 907,699,650,265
+  offsets: 0,0,650,265
+  rotate: false
+  index: -1
+shorts_hidden
+  bounds: 1563,699,376,228
+  offsets: 0,0,376,228
+  rotate: false
+  index: -1
+eye_R
+  bounds: 3,1149,156,159
+  offsets: 0,0,156,159
+  rotate: false
+  index: -1
+eye_L
+  bounds: 165,1149,187,155
+  offsets: 0,0,187,155
+  rotate: false
+  index: -1
+leg_L
+  bounds: 358,1149,145,154
+  offsets: 0,0,145,154
+  rotate: false
+  index: -1
+leg_R
+  bounds: 509,1149,156,147
+  offsets: 0,0,156,147
+  rotate: false
+  index: -1
+mouth
+  bounds: 671,1149,148,118
+  offsets: 0,0,148,118
+  rotate: false
+  index: -1
+neck_underlay
+  bounds: 825,1149,210,110
+  offsets: 0,0,210,110
+  rotate: false
+  index: -1
+boot_lip_R
+  bounds: 1041,1149,190,105
+  offsets: 0,0,190,105
+  rotate: false
+  index: -1
+boot_lip_L
+  bounds: 1237,1149,205,98
+  offsets: 0,0,205,98
+  rotate: false
+  index: -1
+eye_L_closed
+  bounds: 1448,1149,140,88
+  offsets: 0,0,140,88
+  rotate: false
+  index: -1
+eye_R_closed
+  bounds: 1594,1149,150,88
+  offsets: 0,0,150,88
+  rotate: false
+  index: -1
+boot_back_R
+  bounds: 1750,1149,151,68
+  offsets: 0,0,151,68
+  rotate: false
+  index: -1
+boot_back_L
+  bounds: 3,1314,151,67
+  offsets: 0,0,151,67
+  rotate: false
+  index: -1
+cheek_L
+  bounds: 160,1314,67,64
+  offsets: 0,0,67,64
+  rotate: false
+  index: -1
+mouth_closed
+  bounds: 233,1314,112,62
+  offsets: 0,0,112,62
+  rotate: false
+  index: -1
+brow_R
+  bounds: 351,1314,59,58
+  offsets: 0,0,59,58
+  rotate: false
+  index: -1
+cheek_R
+  bounds: 416,1314,72,58
+  offsets: 0,0,72,58
+  rotate: false
+  index: -1
+leg_overlap_R
+  bounds: 494,1314,99,52
+  offsets: 0,0,99,52
+  rotate: false
+  index: -1
+leg_overlap_L
+  bounds: 599,1314,100,50
+  offsets: 0,0,100,50
+  rotate: false
+  index: -1
+button_01_rigid
+  bounds: 705,1314,41,41
+  offsets: 0,0,41,41
+  rotate: false
+  index: -1
+button_02_rigid
+  bounds: 752,1314,41,41
+  offsets: 0,0,41,41
+  rotate: false
+  index: -1
+button_03_rigid
+  bounds: 799,1314,41,41
+  offsets: 0,0,41,41
+  rotate: false
+  index: -1
+button_04_rigid
+  bounds: 846,1314,41,41
+  offsets: 0,0,41,41
+  rotate: false
+  index: -1
+brow_L
+  bounds: 893,1314,73,32
+  offsets: 0,0,73,32
+  rotate: false
+  index: -1
+nose
+  bounds: 972,1314,33,32
+  offsets: 0,0,33,32
+  rotate: false
+  index: -1

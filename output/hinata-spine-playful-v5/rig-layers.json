@@ -1,0 +1,857 @@
+[
+  {
+    "id": "claw_link_L",
+    "x": 33,
+    "y": -180,
+    "width": 598,
+    "height": 553,
+    "visible": true,
+    "hidden": true,
+    "group": "claw",
+    "bone": "claw_upper_L",
+    "depth": "rear",
+    "registration": {
+      "sourceA": [
+        891,
+        110
+      ],
+      "sourceB": [
+        891,
+        548
+      ],
+      "targetA": [
+        510,
+        -65
+      ],
+      "targetB": [
+        150,
+        250
+      ],
+      "mirror": false,
+      "a": 0.7191780821917808,
+      "b": 0.821917808219178,
+      "ox": 520.5821917808219,
+      "oy": -177.29452054794518
+    }
+  },
+  {
+    "id": "claw_finger_L",
+    "x": -155,
+    "y": 116,
+    "width": 814,
+    "height": 813,
+    "visible": true,
+    "hidden": true,
+    "group": "claw",
+    "bone": "claw_lower_L",
+    "depth": "rear",
+    "registration": {
+      "sourceA": [
+        313,
+        710
+      ],
+      "sourceB": [
+        467,
+        1168
+      ],
+      "targetA": [
+        150,
+        250
+      ],
+      "targetB": [
+        410,
+        770
+      ],
+      "mirror": true,
+      "a": 0.8485523385300668,
+      "b": -0.8530066815144766,
+      "ox": -152.44097995545656,
+      "oy": 417.5456570155902
+    }
+  },
+  {
+    "id": "claw_link_R",
+    "x": 475,
+    "y": -186,
+    "width": 603,
+    "height": 547,
+    "visible": true,
+    "hidden": true,
+    "group": "claw",
+    "bone": "claw_upper_R",
+    "depth": "rear",
+    "registration": {
+      "sourceA": [
+        891,
+        110
+      ],
+      "sourceB": [
+        891,
+        548
+      ],
+      "targetA": [
+        590,
+        -65
+      ],
+      "targetB": [
+        955,
+        245
+      ],
+      "mirror": false,
+      "a": 0.7077625570776256,
+      "b": -0.8333333333333334,
+      "ox": 477.2488584474886,
+      "oy": -58.915525114155244
+    }
+  },
+  {
+    "id": "claw_finger_R",
+    "x": 573,
+    "y": 123,
+    "width": 694,
+    "height": 782,
+    "visible": true,
+    "hidden": true,
+    "group": "claw",
+    "bone": "claw_lower_R",
+    "depth": "rear",
+    "registration": {
+      "sourceA": [
+        313,
+        710
+      ],
+      "sourceB": [
+        467,
+        1168
+      ],
+      "targetA": [
+        955,
+        245
+      ],
+      "targetB": [
+        827,
+        770
+      ],
+      "mirror": false,
+      "a": 0.9454257323967792,
+      "b": 0.597370224430358,
+      "ox": 933.7735394894638,
+      "oy": 125.75791502484154
+    }
+  },
+  {
+    "id": "claw_back_finger",
+    "x": 379,
+    "y": -265,
+    "width": 497,
+    "height": 1169,
+    "visible": true,
+    "hidden": true,
+    "group": "claw",
+    "bone": "claw_back",
+    "depth": "rear",
+    "registration": {
+      "sourceA": [
+        906,
+        709
+      ],
+      "sourceB": [
+        885,
+        1167
+      ],
+      "targetA": [
+        550,
+        -90
+      ],
+      "targetB": [
+        675,
+        765
+      ],
+      "mirror": false,
+      "a": 1.850407935110963,
+      "b": -0.35776979615137605,
+      "ox": 381.1051830356081,
+      "oy": -208.99172236626148
+    }
+  },
+  {
+    "id": "coat_rear",
+    "x": 260,
+    "y": 970,
+    "width": 650,
+    "height": 265,
+    "visible": true,
+    "group": "fixed_body"
+  },
+  {
+    "id": "boot_back_L",
+    "x": 357,
+    "y": 1241,
+    "width": 151,
+    "height": 67,
+    "visible": true,
+    "group": "boot",
+    "bone": "foot_L"
+  },
+  {
+    "id": "boot_back_R",
+    "x": 666,
+    "y": 1255,
+    "width": 151,
+    "height": 68,
+    "visible": true,
+    "group": "boot",
+    "bone": "foot_R"
+  },
+  {
+    "id": "leg_overlap_L",
+    "x": 386,
+    "y": 1252,
+    "width": 100,
+    "height": 50,
+    "visible": true,
+    "group": "boot",
+    "bone": "foot_L"
+  },
+  {
+    "id": "leg_overlap_R",
+    "x": 690,
+    "y": 1268,
+    "width": 99,
+    "height": 52,
+    "visible": true,
+    "group": "boot",
+    "bone": "foot_R"
+  },
+  {
+    "id": "leg_L",
+    "label": "左腿可见部分",
+    "group": "四肢",
+    "x": 381,
+    "y": 1138,
+    "width": 145,
+    "height": 154,
+    "visible": true,
+    "file": "layers/leg_L.png",
+    "origin": "approved-source-pixels",
+    "pixelCount": 12986
+  },
+  {
+    "id": "leg_R",
+    "label": "右腿可见部分",
+    "group": "四肢",
+    "x": 634,
+    "y": 1161,
+    "width": 156,
+    "height": 147,
+    "visible": true,
+    "file": "layers/leg_R.png",
+    "origin": "approved-source-pixels",
+    "pixelCount": 12353
+  },
+  {
+    "id": "boot_L",
+    "label": "左雨靴",
+    "group": "四肢",
+    "x": 254,
+    "y": 1217,
+    "width": 270,
+    "height": 284,
+    "visible": true,
+    "file": "layers/boot_L.png",
+    "origin": "approved-source-pixels",
+    "pixelCount": 36894
+  },
+  {
+    "id": "boot_R",
+    "label": "右雨靴",
+    "group": "四肢",
+    "x": 648,
+    "y": 1217,
+    "width": 194,
+    "height": 305,
+    "visible": true,
+    "file": "layers/boot_R.png",
+    "origin": "approved-source-pixels",
+    "pixelCount": 34768
+  },
+  {
+    "id": "boot_lip_L",
+    "x": 350,
+    "y": 1230,
+    "width": 205,
+    "height": 98,
+    "visible": true,
+    "group": "boot",
+    "bone": "foot_L"
+  },
+  {
+    "id": "boot_lip_R",
+    "x": 650,
+    "y": 1230,
+    "width": 190,
+    "height": 105,
+    "visible": true,
+    "group": "boot",
+    "bone": "foot_R"
+  },
+  {
+    "id": "hair_rear_complete",
+    "x": 111,
+    "y": 4,
+    "width": 770,
+    "height": 690,
+    "visible": true,
+    "group": "hair",
+    "label": "完整后脑发束与耳后发尾"
+  },
+  {
+    "id": "neck_underlay",
+    "x": 510,
+    "y": 625,
+    "width": 210,
+    "height": 110,
+    "visible": true,
+    "group": "body"
+  },
+  {
+    "id": "shorts_hidden",
+    "x": 385,
+    "y": 990,
+    "width": 376,
+    "height": 228,
+    "visible": true,
+    "group": "body"
+  },
+  {
+    "id": "coat_surface",
+    "x": 264,
+    "y": 554,
+    "width": 619,
+    "height": 678,
+    "visible": true,
+    "originalParts": [
+      "neck",
+      "coat_torso",
+      "hood_back",
+      "collar_L",
+      "collar_R",
+      "hem_back",
+      "button_01",
+      "button_02",
+      "button_03",
+      "button_04",
+      "crow"
+    ]
+  },
+  {
+    "id": "button_01_rigid",
+    "x": 554,
+    "y": 749,
+    "width": 41,
+    "height": 41,
+    "visible": true,
+    "group": "button",
+    "bone": "button_01_rigid",
+    "center": [
+      574.5,
+      769.5
+    ]
+  },
+  {
+    "id": "button_02_rigid",
+    "x": 539,
+    "y": 850,
+    "width": 41,
+    "height": 41,
+    "visible": true,
+    "group": "button",
+    "bone": "button_02_rigid",
+    "center": [
+      559.5,
+      870.5
+    ]
+  },
+  {
+    "id": "button_03_rigid",
+    "x": 524,
+    "y": 961,
+    "width": 41,
+    "height": 41,
+    "visible": true,
+    "group": "button",
+    "bone": "button_03_rigid",
+    "center": [
+      544.5,
+      981.5
+    ]
+  },
+  {
+    "id": "button_04_rigid",
+    "x": 509,
+    "y": 1055,
+    "width": 41,
+    "height": 41,
+    "visible": true,
+    "group": "button",
+    "bone": "button_04_rigid",
+    "center": [
+      529.5,
+      1075.5
+    ]
+  },
+  {
+    "id": "claw_pad_L",
+    "x": 330,
+    "y": 705,
+    "width": 155,
+    "height": 110,
+    "visible": true,
+    "hidden": true,
+    "group": "claw",
+    "bone": "claw_lower_L",
+    "depth": "pad"
+  },
+  {
+    "id": "claw_pad_R",
+    "x": 747,
+    "y": 705,
+    "width": 155,
+    "height": 110,
+    "visible": true,
+    "hidden": true,
+    "group": "claw",
+    "bone": "claw_lower_R",
+    "depth": "pad"
+  },
+  {
+    "id": "scalp_underlay",
+    "x": 275,
+    "y": 170,
+    "width": 560,
+    "height": 435,
+    "visible": true,
+    "group": "face"
+  },
+  {
+    "id": "face_base",
+    "x": 290,
+    "y": 245,
+    "width": 530,
+    "height": 450,
+    "visible": true,
+    "group": "face"
+  },
+  {
+    "id": "hair_surface",
+    "x": 111,
+    "y": 4,
+    "width": 770,
+    "height": 690,
+    "visible": true,
+    "group": "hair"
+  },
+  {
+    "id": "eye_L",
+    "x": 316,
+    "y": 444,
+    "width": 187,
+    "height": 155,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_L"
+  },
+  {
+    "id": "eye_R",
+    "x": 544,
+    "y": 346,
+    "width": 156,
+    "height": 159,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_R"
+  },
+  {
+    "id": "brow_L",
+    "x": 352,
+    "y": 401,
+    "width": 73,
+    "height": 32,
+    "visible": true,
+    "group": "feature",
+    "bone": "brow_L"
+  },
+  {
+    "id": "brow_R",
+    "x": 524,
+    "y": 323,
+    "width": 59,
+    "height": 58,
+    "visible": true,
+    "group": "feature",
+    "bone": "brow_R"
+  },
+  {
+    "id": "nose",
+    "x": 504,
+    "y": 506,
+    "width": 33,
+    "height": 32,
+    "visible": true,
+    "group": "feature",
+    "bone": "nose"
+  },
+  {
+    "id": "mouth",
+    "x": 480,
+    "y": 522,
+    "width": 148,
+    "height": 118,
+    "visible": true,
+    "group": "feature",
+    "bone": "mouth"
+  },
+  {
+    "id": "cheek_L",
+    "x": 393,
+    "y": 570,
+    "width": 67,
+    "height": 64,
+    "visible": true,
+    "group": "feature",
+    "bone": "cheek_L"
+  },
+  {
+    "id": "cheek_R",
+    "x": 634,
+    "y": 487,
+    "width": 72,
+    "height": 58,
+    "visible": true,
+    "group": "feature",
+    "bone": "cheek_R"
+  },
+  {
+    "id": "eye_L_closed",
+    "x": 337,
+    "y": 470,
+    "width": 140,
+    "height": 88,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_L",
+    "alternateFor": "eye_L"
+  },
+  {
+    "id": "eye_R_closed",
+    "x": 547,
+    "y": 393,
+    "width": 150,
+    "height": 88,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_R",
+    "alternateFor": "eye_R"
+  },
+  {
+    "id": "mouth_closed",
+    "x": 501,
+    "y": 552,
+    "width": 112,
+    "height": 62,
+    "visible": true,
+    "group": "feature",
+    "bone": "mouth",
+    "alternateFor": "mouth"
+  },
+  {
+    "id": "eye_L_stunned",
+    "x": 360,
+    "y": 470,
+    "width": 104,
+    "height": 103,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_L",
+    "alternateFor": "eye_L"
+  },
+  {
+    "id": "eye_R_stunned",
+    "x": 566,
+    "y": 377,
+    "width": 109,
+    "height": 110,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_R",
+    "alternateFor": "eye_R"
+  },
+  {
+    "id": "brow_L_stunned",
+    "x": 352,
+    "y": 401,
+    "width": 73,
+    "height": 32,
+    "visible": true,
+    "group": "feature",
+    "bone": "brow_L",
+    "alternateFor": "brow_L"
+  },
+  {
+    "id": "brow_R_stunned",
+    "x": 524,
+    "y": 323,
+    "width": 59,
+    "height": 58,
+    "visible": true,
+    "group": "feature",
+    "bone": "brow_R",
+    "alternateFor": "brow_R"
+  },
+  {
+    "id": "mouth_stunned",
+    "x": 478,
+    "y": 548,
+    "width": 154,
+    "height": 64,
+    "visible": true,
+    "group": "feature",
+    "bone": "mouth",
+    "alternateFor": "mouth"
+  },
+  {
+    "id": "eye_L_shocked",
+    "x": 353,
+    "y": 467,
+    "width": 119,
+    "height": 108,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_L",
+    "alternateFor": "eye_L"
+  },
+  {
+    "id": "eye_R_shocked",
+    "x": 560,
+    "y": 373,
+    "width": 120,
+    "height": 118,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_R",
+    "alternateFor": "eye_R"
+  },
+  {
+    "id": "brow_L_shocked",
+    "x": 352,
+    "y": 401,
+    "width": 73,
+    "height": 32,
+    "visible": true,
+    "group": "feature",
+    "bone": "brow_L",
+    "alternateFor": "brow_L"
+  },
+  {
+    "id": "brow_R_shocked",
+    "x": 524,
+    "y": 323,
+    "width": 59,
+    "height": 58,
+    "visible": true,
+    "group": "feature",
+    "bone": "brow_R",
+    "alternateFor": "brow_R"
+  },
+  {
+    "id": "mouth_shocked",
+    "x": 484,
+    "y": 506,
+    "width": 143,
+    "height": 148,
+    "visible": true,
+    "group": "feature",
+    "bone": "mouth",
+    "alternateFor": "mouth"
+  },
+  {
+    "id": "eye_L_grin",
+    "x": 356,
+    "y": 493,
+    "width": 112,
+    "height": 56,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_L",
+    "alternateFor": "eye_L"
+  },
+  {
+    "id": "eye_R_grin",
+    "x": 564,
+    "y": 402,
+    "width": 113,
+    "height": 60,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_R",
+    "alternateFor": "eye_R"
+  },
+  {
+    "id": "brow_L_grin",
+    "x": 352,
+    "y": 401,
+    "width": 73,
+    "height": 32,
+    "visible": true,
+    "group": "feature",
+    "bone": "brow_L",
+    "alternateFor": "brow_L"
+  },
+  {
+    "id": "brow_R_grin",
+    "x": 524,
+    "y": 323,
+    "width": 59,
+    "height": 58,
+    "visible": true,
+    "group": "feature",
+    "bone": "brow_R",
+    "alternateFor": "brow_R"
+  },
+  {
+    "id": "mouth_grin",
+    "x": 475,
+    "y": 531,
+    "width": 160,
+    "height": 94,
+    "visible": true,
+    "group": "feature",
+    "bone": "mouth",
+    "alternateFor": "mouth"
+  },
+  {
+    "id": "eye_L_determined",
+    "x": 345,
+    "y": 460,
+    "width": 134,
+    "height": 122,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_L",
+    "alternateFor": "eye_L"
+  },
+  {
+    "id": "eye_R_determined",
+    "x": 561,
+    "y": 368,
+    "width": 118,
+    "height": 128,
+    "visible": true,
+    "group": "feature",
+    "bone": "eye_R",
+    "alternateFor": "eye_R"
+  },
+  {
+    "id": "brow_L_determined",
+    "x": 352,
+    "y": 401,
+    "width": 73,
+    "height": 32,
+    "visible": true,
+    "group": "feature",
+    "bone": "brow_L",
+    "alternateFor": "brow_L"
+  },
+  {
+    "id": "brow_R_determined",
+    "x": 524,
+    "y": 323,
+    "width": 59,
+    "height": 58,
+    "visible": true,
+    "group": "feature",
+    "bone": "brow_R",
+    "alternateFor": "brow_R"
+  },
+  {
+    "id": "mouth_determined",
+    "x": 534,
+    "y": 573,
+    "width": 42,
+    "height": 24,
+    "visible": true,
+    "group": "feature",
+    "bone": "mouth",
+    "alternateFor": "mouth"
+  },
+  {
+    "id": "arm_L",
+    "x": 299,
+    "y": 704,
+    "width": 206,
+    "height": 363,
+    "visible": true,
+    "originalParts": [
+      "sleeve_L",
+      "hand_L"
+    ]
+  },
+  {
+    "id": "arm_R",
+    "x": 653,
+    "y": 687,
+    "width": 210,
+    "height": 444,
+    "visible": true,
+    "originalParts": [
+      "sleeve_R",
+      "hand_R"
+    ]
+  },
+  {
+    "id": "volleyball",
+    "x": 394,
+    "y": -168,
+    "width": 172,
+    "height": 172,
+    "visible": true,
+    "group": "prop",
+    "bone": "volleyball",
+    "hidden": true
+  },
+  {
+    "id": "claw_machine_arm",
+    "x": 483,
+    "y": -348,
+    "width": 137,
+    "height": 304,
+    "visible": true,
+    "hidden": true,
+    "group": "claw",
+    "bone": "claw_root",
+    "depth": "front",
+    "registration": {
+      "sourceA": [
+        407,
+        540
+      ],
+      "sourceB": [
+        407,
+        33
+      ],
+      "targetA": [
+        550,
+        -90
+      ],
+      "targetB": [
+        550,
+        -330
+      ],
+      "mirror": false,
+      "a": 0.47337278106508873,
+      "b": 0,
+      "ox": 485.14792899408286,
+      "oy": -345.6213017751479
+    }
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "source": "../hinata-live2d-v2",
+  "layerCount": 47,
+  "boneCount": 10,
+  "pageCount": 2,
+  "originalLayerFilesUnchanged": true,
+  "samplingSupport": {
+    "pixels": 4,
+    "source": "Neighboring approved-image pixels only; no new drawing.",
+    "copiedSeamPixels": 136363
+  },
+  "sourceImageSHA256": "356450ea34b96bc6db673b1aa36bce403e2e065b0efe4597e749a1f0e2d5ae4a",
+  "runtime": "Official @esotericsoftware/spine-webgl 4.2 branch",
+  "runtimeSHA256": "98e11bb97abf3dd8df842b6409978d0cfdc6d4ab6d7095ba90ca7810bcf0ebec",
+  "rig": "Shared triangulation with barycentrically interpolated weighted bind positions; visible pieces remain joined.",
+  "limitations": [
+    "遮挡补全未完成；保持原姿势做连续网格变形，未制作独立转身、挥手或眨眼。",
+    "未在 Spine 编辑器中执行导入；本包是 JSON/atlas/PNG，不含原生 .spine 文件。"
+  ],
+  "animations": [
+    {
+      "id": "idle",
+      "label": "待机呼吸",
+      "duration": 3.2,
+      "description": "轻轻呼吸，歪头晃动，发梢和袖口跟随。"
+    },
+    {
+      "id": "hop",
+      "label": "轻轻蹦跳",
+      "duration": 2.4,
+      "description": "蓄力蹲一下，向上蹦起，落地回弹。"
+    },
+    {
+      "id": "happy_bounce",
+      "label": "开心连跳",
+      "duration": 2.4,
+      "description": "一轻一高连续跳，左右摇摆，雨靴和发梢跟随。"
+    }
+  ]
+}

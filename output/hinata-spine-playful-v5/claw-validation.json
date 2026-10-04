@@ -1,0 +1,7 @@
+{
+  "rigidDistanceError": 0.00014529680322539207,
+  "closedPadContactError": 0.0045020302995937385,
+  "finiteVertices": true,
+  "frames": 198,
+  "hiddenInOtherActions": true
+}

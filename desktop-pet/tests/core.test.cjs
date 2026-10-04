@@ -1,0 +1,6 @@
+const test=require('node:test'),assert=require('node:assert/strict');
+const {dimensions,settle,fallPlan,fallAt,cleanSettings}=require('../window-physics.cjs');
+test('floor placement respects taskbar and monitors left of primary',()=>{const area={x:-1920,y:-180,width:1920,height:1040},b={x:-2100,y:100,width:352,height:479};const p=settle(b,area,420);assert.equal(p.y+420,860);assert.ok(p.x>-2100);});
+test('gravity starts at release point, reaches the floor, then finishes landing',()=>{const b={x:1600,y:80,width:352,height:479},area={x:0,y:0,width:1920,height:1040},p=fallPlan(b,area,420,300);assert.deepEqual(fallAt(p,0),{x:1600,y:80,land:false,landing:false,finished:false});const halfway=fallAt(p,p.duration/2);assert.equal(halfway.y,Math.round(80+(620-80)/4));assert.equal(fallAt(p,p.duration).y,620);assert.equal(fallAt(p,p.duration+.26).finished,true);});
+test('release below the desktop floor settles upward without NaN',()=>{const p=fallPlan({x:10,y:900,width:300,height:479},{x:0,y:0,width:1920,height:1040},420,300);assert.ok(Number.isFinite(p.duration));assert.equal(fallAt(p,5).y,620);});
+test('size and persisted settings tolerate invalid data',()=>{assert.deepEqual(cleanSettings({size:NaN,x:'bad',expression:'invalid'}),{size:300,alwaysOnTop:true,autoActivity:true,expression:'auto',x:null});assert.ok(dimensions(380).height>dimensions(220).height);});

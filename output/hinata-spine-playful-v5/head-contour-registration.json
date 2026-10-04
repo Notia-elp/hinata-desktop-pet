@@ -1,0 +1,79 @@
+{
+  "mode": "Built-in ImageGen artwork with deterministic alpha cleanup and landmark registration",
+  "headSource": "art/head-plate-clean-generated.png",
+  "rearSource": "art/rear-hair-left-nape-registered.png",
+  "headRegistration": {
+    "sourceL": [
+      313,
+      665
+    ],
+    "sourceR": [
+      800,
+      506
+    ],
+    "targetL": [
+      346,
+      600
+    ],
+    "targetR": [
+      757,
+      449
+    ],
+    "a": 0.8541284054105543,
+    "b": -0.03119832349018861,
+    "ox": 57.91092398552105,
+    "oy": 41.76968565441041,
+    "jawContactCorrection": {
+      "maximumPixels": 5.5,
+      "verticalRange": [
+        565,
+        645
+      ],
+      "horizontalRange": [
+        390,
+        775
+      ],
+      "earAnchorsUnchanged": true
+    }
+  },
+  "frontHairCleanup": {
+    "retainedMainPixels": 204088,
+    "removedComponents": 36
+  },
+  "retired": [
+    "nape_underlay_L",
+    "nape_underlay_R",
+    "nape_underlay_temple_R"
+  ],
+  "rearHair": "Single fully painted rear volume, natural nape contour, same weighted hair lattice as front hair, below neck/face/hood.",
+  "leftNapeRedraw": {
+    "source": "art/rear-hair-left-nape-generated.png",
+    "registered": "art/rear-hair-left-nape-registered.png",
+    "region": {
+      "x": [
+        0,
+        500
+      ],
+      "y": [
+        780,
+        1187
+      ]
+    },
+    "feather": {
+      "x": [
+        420,
+        500
+      ],
+      "y": [
+        780,
+        880
+      ]
+    },
+    "preserved": "Original crown, right side, central back volume and concealed inner nape pixels"
+  },
+  "leftOutlineOwnership": {
+    "source": "Existing painted front-hair and registered head alpha mattes",
+    "scope": "Only the redundant outer-left rear tip at source x=201..222, y=500..540 and its antialias fringe; fade ends at x=240 and y=560. Lower nape remains untouched.",
+    "paintedRGBUnchanged": true
+  }
+}
