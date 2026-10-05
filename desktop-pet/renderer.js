@@ -23,7 +23,7 @@ function release(cancelled=false){if(!press)return;clearTimeout(timer);const id=
  if(phase==='pending'){phase='idle';if(!cancelled)play('hop');send('release',{short:true});return;}
  if(['pickup','held'].includes(phase)){phase='dropping';grab=null;state.setAnimation(1,'claw_release',false);send('release',{short:false});}canvas.classList.remove('held');}
 canvas.addEventListener('pointerdown',e=>{if(e.button!==0||press||phase==='dropping'||alphaAt(e.clientX,e.clientY)<24)return;e.preventDefault();const point=unproject(e.clientX,e.clientY),bone=skeleton.findBone(point.y>900?'head':'body');press={id:e.pointerId,bone:bone.data.name,local:bone.worldToLocal({...point})};phase='pending';try{canvas.setPointerCapture(e.pointerId);}catch{}send('press',{x:e.clientX,y:e.clientY});timer=setTimeout(pickup,300);});
-canvas.addEventListener('pointerup',()=>release());canvas.addEventListener('pointercancel',()=>release(true));canvas.addEventListener('lostpointercapture',()=>release(true));
+canvas.addEventListener('pointerup',e=>{if(e.pointerId===press?.id)release();});canvas.addEventListener('pointercancel',e=>{if(e.pointerId===press?.id)release(true);});canvas.addEventListener('lostpointercapture',e=>{if(e.pointerId===press?.id)release(true);});
 canvas.addEventListener('contextmenu',e=>{e.preventDefault();release(true);send('context-menu');});
 canvas.addEventListener('dblclick',()=>play('head_juggle'));window.addEventListener('blur',()=>release(true));
 window.addEventListener('keydown',e=>{if(e.key==='Escape')release(true);});
